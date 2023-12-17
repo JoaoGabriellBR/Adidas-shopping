@@ -3,6 +3,8 @@ import { Tab } from "@headlessui/react";
 
 import { cn } from "@/lib/utils";
 import { Image } from "@/types";
+import camisa from "@/assets/camiseta-aeroready-designed-for-movement.png"
+
 
 interface GalleryTabProps {
   image: Image;
@@ -20,7 +22,8 @@ const GalleryTab: React.FC<GalleryTabProps> = ({
           <span className="absolute h-full w-full aspect-square inset-0 overflow-hidden rounded-md">
             <NextImage 
               fill 
-              src={image.url} 
+              // src={image.url}
+              src={camisa}
               alt="" 
               className="object-cover object-center" 
             />

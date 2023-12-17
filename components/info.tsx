@@ -28,7 +28,7 @@ const Info: React.FC<InfoProps> = ({ data }) => {
       </h1>
       <div className="mt-3 lex items-end justify-between">
         <p className="text-2xl text-gray-900">
-          {data?.price}
+          R$ {data?.price}
         </p>
       </div>
       <hr className="my-2" />

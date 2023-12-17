@@ -6,6 +6,8 @@ import IconButton from "@/components/ui/icon-button";
 // import Currency from "@/components/ui/currency";
 import useCart from "@/hooks/use-cart";
 import { Product } from "@/types";
+import camisa from "@/assets/camiseta-aeroready-designed-for-movement.png"
+
 
 interface CartItemProps {
   data: Product;
@@ -23,7 +25,8 @@ const CartItem: React.FC<CartItemProps> = ({ data }) => {
       <div className="relative h-24 w-24 rounded-md overflow-hidden sm:h-48 sm:w-48">
         <Image
           fill
-          src={data?.images?.url}
+          // src={data?.images?.url}
+          src={camisa}
           alt=""
           className="object-cover object-center"
         />
@@ -43,7 +46,7 @@ const CartItem: React.FC<CartItemProps> = ({ data }) => {
               {data?.size?.name}
             </p>
           </div>
-          {data.price}
+          R$ {data.price}
         </div>
       </div>
     </li>

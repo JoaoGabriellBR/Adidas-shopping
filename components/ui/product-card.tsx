@@ -10,7 +10,7 @@ import IconButton from "@/components/ui/icon-button";
 import usePreviewModal from "@/hooks/use-preview-modal";
 import useCart from "@/hooks/use-cart";
 import { Product } from "@/types";
-import camisa from "@/assets/camiseta-aeroready-designed-for-movement.avif"
+import camisa from "@/assets/camiseta-aeroready-designed-for-movement.png"
 
 interface ProductCard {
   data: Product;
@@ -45,7 +45,8 @@ const ProductCard: React.FC<ProductCard> = ({ data }) => {
       {/* Image & actions */}
       <div className="aspect-square rounded-xl bg-gray-100 relative">
         <Image
-          src={data.images.url}
+          // src={data.images.url}
+          src={camisa}
           alt=""
           fill
           className="aspect-square object-cover rounded-md"
@@ -71,7 +72,7 @@ const ProductCard: React.FC<ProductCard> = ({ data }) => {
       {/* Price & Reiew */}
       <div className="flex items-center justify-between">
         {/* <Currency value={data?.price} /> */}
-        {data?.price}
+        <p>R$ {data?.price}</p>
       </div>
     </div>
   );

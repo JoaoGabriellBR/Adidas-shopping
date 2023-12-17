@@ -6,6 +6,7 @@ import { Tab } from "@headlessui/react";
 import { Image } from "@/types";
 
 import GalleryTab from "./gallery-tab";
+import camisa from "@/assets/camiseta-aeroready-designed-for-movement.png"
 
 interface GalleryProps {
   images: Image[];
@@ -29,7 +30,8 @@ const Gallery: React.FC<GalleryProps> = ({
             <div className="aspect-square relative h-full w-full sm:rounded-lg overflow-hidden">
               <NextImage
                 fill
-                src={image.url}
+                // src={image.url}
+                src={camisa}
                 alt="Image"
                 className="object-cover object-center"
               />

@@ -16,18 +16,20 @@ const Summary = () => {
 
   useEffect(() => {
     if (searchParams.get("success")) {
-      toast.success("Payment completed.");
+      toast.success("Pagamento completado.");
       removeAll();
     }
 
     if (searchParams.get("canceled")) {
-      toast.error("Something went wrong.");
+      toast.error("Algo deu errado!");
     }
   }, [searchParams, removeAll]);
 
   const totalPrice = items.reduce((total, item) => {
     return total + Number(item.price);
   }, 0);
+
+  console.log(items)
 
   const onCheckout = async () => {
     const response = await axios.post(
@@ -46,7 +48,7 @@ const Summary = () => {
       <div className="mt-6 space-y-4">
         <div className="flex items-center justify-between border-t border-gray-200 pt-4">
           <div className="text-base font-medium text-gray-900">Total</div>
-          {totalPrice}
+          <p>R$ {totalPrice}</p>
         </div>
       </div>
       <Button
@@ -54,7 +56,7 @@ const Summary = () => {
         disabled={items.length === 0}
         className="w-full mt-6"
       >
-        Checkout
+        Pagamento
       </Button>
     </div>
   );
