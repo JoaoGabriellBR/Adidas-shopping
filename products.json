@@ -17,10 +17,12 @@
     "price": "99.99",
     "description": "Desenvolvida com tecnologia AEROREADY para controle de umidade, para manter você confortável enquanto se movimenta ao longo do dia.",
     "color": {
+      "id": 1,
       "name": "Preto",
       "value": "#000000"
     },
     "size": {
+      "id": 2,
       "name": "M"
     }
   },
@@ -46,6 +48,7 @@
       "value": "#2D364C"
     },
     "size": {
+      "id": 2,
       "name": "M"
     }
   },
@@ -71,10 +74,12 @@
     "price": "99.99",
     "description": "Nada como uma camiseta confiável que você pode vestir antes de sair de casa. Esta camiseta juvenil adidas é feita de malha simples de algodão macio para uma sensação leve e confortável. As Três Listras chapadas vão do pescoço às mangas, criando um look clássico.",
     "color": {
-      "name": "Better Scarlet S23",
+      "id": 3,
+      "name": "Vermelho Escarlate",
       "value": "#FF2400"
     },
     "size": {
+      "id": 2,
       "name": "M"
     }
   },
@@ -108,6 +113,7 @@
       "value": "#D3D3D3"
     },
     "size": {
+      "id": 1,
       "name": "P"
     }
   },
@@ -141,6 +147,42 @@
       "value": "#3f7055"
     },
     "size": {
+      "id": 1,
+      "name": "P"
+    }
+  },
+  {
+    "id": 6,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/23c766b5d98d42b98144aeec003e6540_9366/Camisa_3_Cruzeiro_22-23_Infantil_Amarelo_HD3822_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9c96123ee19d459c8418aeec003b88fc_9366/Camisa_3_Cruzeiro_22-23_Infantil_Amarelo_HD3822_02_laydown_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/69b24ed564894b4fa16faeec003b8865_9366/Camisa_3_Cruzeiro_22-23_Infantil_Amarelo_HD3822_41_detail.jpg"
+      }
+    ],
+    "name": "Camisa 3 CRUZEIRO 22/23 INFANTIL",
+    "category": [
+      {
+        "id": 3,
+        "name": "Futebol"
+      }
+    ],
+    "price": "249.99",
+    "description": "A versão torcedor da camisa do Cruzeiro comemora 200 anos da independência do Brasil. Esta camisa de futebol juvenil adidas vem com as cores amarelo e azul, uma homenagem aos fortes laços do clube com a seleção nacional.",
+    "color": {
+      "id": 4,
+      "name": "Amarelo",
+      "value": "#eccf40"
+    },
+    "size": {
+      "id": 1,
       "name": "P"
     }
   }

@@ -1,13 +1,16 @@
 // import getCategory from "@/actions/get-category";
-import getColors from "@/actions/get-colors";
-import getProducts from "@/actions/get-products";
-import getSizes from "@/actions/get-sizes";
+// import getColors from "@/actions/get-colors";
+// import getProducts from "@/actions/get-products";
+// import getSizes from "@/actions/get-sizes";
 import { Billboard } from "@/components/billboard";
 import Container from "@/components/ui/container";
 import Filter from "./components/filter";
 import NoResults from "@/components/ui/no-results";
 import ProductCard from "@/components/ui/product-card";
 import MobileFilters from "./components/mobile-filters";
+import products from "@/products.json";
+import sizes from "@/sizes.json";
+import colors from "@/colors.json";
 
 export const revalidate = 0;
 
@@ -25,19 +28,22 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({
   params,
   searchParams,
 }) => {
-  const products = await getProducts({
-    categoryId: params.categoryId,
-    colorId: searchParams.colorId,
-    sizeId: searchParams.sizeId,
-  });
-  const sizes = await getSizes();
-  const colors = await getColors();
+
+  // const products = await getProducts({
+  //   categoryId: params.categoryId,
+  //   colorId: searchParams.colorId,
+  //   sizeId: searchParams.sizeId,
+  // });
+
+  // const sizes = await getSizes();
+  // const colors = await getColors();
   // const category = await getCategory(params.categoryId);
+  const category = params.categoryId;
 
   return (
     <div className="bg-white">
       <Container>
-        <Billboard data={category.billboard} />
+        {/* <Billboard data={category.billboard} /> */}
         <div className="px-4 sm:px-6 lg:px-8 pb-24">
           <div className="lg:grid lg:grid-cols-5 lg:gap-x-8">
             <MobileFilters sizes={sizes} colors={colors}/>

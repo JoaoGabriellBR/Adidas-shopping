@@ -5,6 +5,7 @@ import MainNav from "@/components/main-nav";
 import NavbarActions from "@/components/navbar-actions";
 import Image from "next/image";
 import logo from "@/assets/adidas-logo.png";
+import categories from "@/categories.json";
 
 const Navbar = async () => {
   // const categories = await getCategories();
@@ -19,7 +20,7 @@ const Navbar = async () => {
           >
             <Image src={logo} alt="Logo adidas" width={80} height={80} />
           </Link>
-          {/* <MainNav data={categories} /> */}
+          <MainNav data={categories} />
           <NavbarActions />
         </div>
       </Container>

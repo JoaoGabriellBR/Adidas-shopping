@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Preto",
+        "value": "#000"
+    },
+    {
+        "id": 2,
+        "name": "Branco",
+        "value": "#FFF"
+    },
+    {
+        "id": 3,
+        "name": "Vermelho Escarlate",
+        "value": "#FF2400"
+    },
+    {
+        "id": 4,
+        "name": "Amarelo",
+        "value": "#eccf40"
+    }
+
+]
