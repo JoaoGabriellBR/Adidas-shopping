@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "images": [
+      {
+        "id": 1,
+        "url": "/assets/camiseta-aeroready-designed-for-movement.png"
+      }
+    ],
+    "name": "Camiseta AEROREADY Designed for Movement",
+    "category": [
+      {
+        "id": 1,
+        "name": "Homem Training"
+      }
+    ],
+    "price": "R$ 99,99",
+    "description": "Desenvolvida com tecnologia AEROREADY para controle de umidade, para manter você confortável enquanto se movimenta ao longo do dia.",
+    "color": {
+      "name": "Preto",
+      "value": "#000000"
+    },
+    "size": {
+      "name": "M",
+      "comprimento": "72",
+      "largura": "54"
+    }
+  }
+]
