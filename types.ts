@@ -18,8 +18,6 @@ export interface Image {
 export interface Size {
   id: string;
   name: string;
-  comprimento: string;
-  largura: string;
 }
 
 export interface Color {

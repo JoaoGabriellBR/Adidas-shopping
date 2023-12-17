@@ -39,7 +39,7 @@ const BRFrima = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nike. Just Do It. Nike.com",
+    default: "Adidas. Just Do It. Nike.com",
     template: "%s | Nike",
   },
   keywords: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     "New arrivals",
     "Dunks and Blazers",
     "athletics",
-    "Nike.com",
+    "adidas.com",
     "Converse",
   ],
   description:
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "NIke. Just Do It.",
+    title: "Adidas Shop",
     description:
       "Nike delivers innovative products, experiences and services to inspire athletes.",
     site: "@nike",

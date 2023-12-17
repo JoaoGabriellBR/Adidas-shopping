@@ -4,14 +4,14 @@
     "images": [
       {
         "id": 1,
-        "url": "/assets/camiseta-aeroready-designed-for-movement.png"
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ef7d0b60d85a440b8277adbe00b4a79b_9366/Camiseta_AEROREADY_Designed_for_Movement_Azul_HF7213_01_laydown.jpg"
       }
     ],
-    "name": "Camiseta AEROREADY Designed for Movement",
+    "name": "Camiseta AEROREADY",
     "category": [
       {
         "id": 1,
-        "name": "Homem Training"
+        "name": "Training"
       }
     ],
     "price": "99.99",
@@ -21,9 +21,127 @@
       "value": "#000000"
     },
     "size": {
-      "name": "M",
-      "comprimento": "72",
-      "largura": "54"
+      "name": "M"
+    }
+  },
+  {
+    "id": 2,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd33f5c542604bcf858baca60184722a_9366/camiseta-amplifier.jpg"
+      }
+    ],
+    "name": "Camiseta AMPLIFIER",
+    "category": [
+      {
+        "id": 2,
+        "name": "Sportswear"
+      }
+    ],
+    "price": "99.99",
+    "description": "Depois da academia, esta camiseta mantém você confortável pelo resto do dia. Ela é confeccionada em tecido leve para um toque macio. O estilo despojado de gola careca torna esta camiseta uma opção fácil para usar o dia todo.",
+    "color": {
+      "name": "Azul",
+      "value": "#2D364C"
+    },
+    "size": {
+      "name": "M"
+    }
+  },
+  {
+    "id": 3,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fe4ae607bcd14235a9c2af9000b73d83_9366/Camiseta_Algodao_Essentials_3-Stripes_Vermelho_IK9096_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c21cfeae7cdb4056a57aaf9000b744c3_9366/Camiseta_Algodao_Essentials_3-Stripes_Vermelho_IK9096.jpg"
+      }
+    ],
+    "name": "Camiseta ESSENTIALS 3-STRIPES",
+    "category": [
+      {
+        "id": 2,
+        "name": "Sportswear"
+      }
+    ],
+    "price": "99.99",
+    "description": "Nada como uma camiseta confiável que você pode vestir antes de sair de casa. Esta camiseta juvenil adidas é feita de malha simples de algodão macio para uma sensação leve e confortável. As Três Listras chapadas vão do pescoço às mangas, criando um look clássico.",
+    "color": {
+      "name": "Better Scarlet S23",
+      "value": "#FF2400"
+    },
+    "size": {
+      "name": "M"
+    }
+  },
+  {
+    "id": 4,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2c0cdac711974b94b3e8802b6a119829_9366/Camisa_Reversivel_24_Kids_Preto_IN8133_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3ab54221cde34827b8d2cdbf6271c60b_9366/Camisa_Reversivel_24_Kids_Preto_IN8133_02_laydown_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/84b996bceac54a7082a8822894f3170b_9366/Camisa_Reversivel_24_Kids_Preto_IN8133_41_detail.jpg"
+      }
+    ],
+    "name": "Camisa REVERSÍVEL 24 KIDS",
+    "category": [
+      {
+        "id": 3,
+        "name": "Futebol"
+      }
+    ],
+    "price": "149.99",
+    "description": "Esqueça o segundo uniforme e deixe os jalecos nos vestiários. Esta camisa de futebol juvenil adidas reversível oferece dois looks em um. Assim que escolher um dos lados e coloca-lá no corpo, o tecido AEROREADY remove o suor para manter o conforto, e o logo das Três Barras aplicado por calor confirma que você vai dominar a partida desde o primeiro minuto.",
+    "color": {
+      "name": "Preto / Team Light Grey",
+      "value": "#D3D3D3"
+    },
+    "size": {
+      "name": "P"
+    }
+  },
+  {
+    "id": 5,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a4dff15c54542c898b1add201659abf_9366/Camisa_Entrada_22_Unissex_Infantil_Verde_HI2126_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7d59d7ed71b9447f8f0fadd20165b184_9366/Camisa_Entrada_22_Unissex_Infantil_Verde_HI2126_02_laydown_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f655bc904eba4953ae23add2016606e4_9366/Camisa_Entrada_22_Unissex_Infantil_Verde_HI2126_42_detail.jpg"
+      }
+    ],
+    "name": "Camisa ENTRADA 22 UNISSEX INFANTIL",
+    "category": [
+      {
+        "id": 3,
+        "name": "Futebol"
+      }
+    ],
+    "price": "119.99",
+    "description": "Treinando como profissionais. Relaxando como campeões. Esta camisa de futebol infantil exibe um design clean e clássico com o Badge of Sport da adidas no peito. O tecido AEROREADY que remove a umidade mantém seu corpo seco e refrescado.",
+    "color": {
+      "name": "Verde",
+      "value": "#3f7055"
+    },
+    "size": {
+      "name": "P"
     }
   }
 ]

@@ -22,17 +22,17 @@ const HomePage = async () => {
   return (
     <Container>
       <div className="space-y-10 pb-10">
-        <div className="flex flex-col sm:flex-row graph justify-between">
+        <div className="flex flex-col sm:flex-row  justify-between">
           <div className="flex flex-col sm:flex-row subtle gap-10">
             <div className="px-3 sm:px-5 pt-5 flex gap-8 flex-col sm:pt-0">
               <div className="flex sm:pt-[130px] flex-col gap-3">
                 <h1
                   className={cn(
-                    "text-6xl sm:text-8xl font-semibold italic pb-4",
+                    "text-5xl sm:text-8xl font-semibold italic pb-4",
                     FuturaCondensedExtraBold.className
                   )}
                 >
-                  ADIDAS SHOP
+                  PRESENTES E MAIS PRESENTES!
                 </h1>
                 <p className="max-w-[500px]">
                   Vista a Grandeza, Sinta a Inovação: Seu Estilo, Suas Adidas!

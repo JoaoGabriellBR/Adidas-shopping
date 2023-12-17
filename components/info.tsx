@@ -42,16 +42,6 @@ const Info: React.FC<InfoProps> = ({ data }) => {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <h3 className="sm:font-semibold text-black">Comprimento:</h3>
-          <div>{data?.size?.comprimento} cm</div>
-        </div>
-
-        <div className="flex items-center gap-x-4">
-          <h3 className="sm:font-semibold text-black">Largura:</h3>
-          <div>{data?.size?.largura} cm</div>
-        </div>
-
-        <div className="flex items-center gap-x-4">
           <h3 className="sm:font-semibold text-black">Cor:</h3>
           <div
             className="h-6 w-6 rounded-full border border-gray-600"

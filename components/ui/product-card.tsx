@@ -45,8 +45,7 @@ const ProductCard: React.FC<ProductCard> = ({ data }) => {
       {/* Image & actions */}
       <div className="aspect-square rounded-xl bg-gray-100 relative">
         <Image
-          // src={data.images.url}
-          src={camisa}
+          src={data.images[0].url}
           alt=""
           fill
           className="aspect-square object-cover rounded-md"
@@ -67,7 +66,7 @@ const ProductCard: React.FC<ProductCard> = ({ data }) => {
       {/* Description */}
       <div>
         <p className="font-semibold text-lg">{data.name}</p>
-        <p className="text-sm text-gray-500">{data.category?.name}</p>
+        <p className="text-sm text-gray-500">{data?.category[0]?.name}</p>
       </div>
       {/* Price & Reiew */}
       <div className="flex items-center justify-between">
