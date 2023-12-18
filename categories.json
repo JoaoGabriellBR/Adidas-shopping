@@ -2,26 +2,46 @@
   {
     "id": 1,
     "name": "Training",
-    "billboard": ""
+    "billboard": {
+      "id": 1,
+      "imageUrl": "/assets/running.png",
+      "label": "TRAINING"
+    }
   },
   {
     "id": 2,
     "name": "Sportswear",
-    "billboard": ""
+    "billboard": {
+      "id": 2,
+      "imageUrl": "/assets/running.png",
+      "label": "SPORTSWEAR"
+    }
   },
   {
     "id": 3,
     "name": "Futebol",
-    "billboard": ""
+    "billboard": {
+      "id": 3,
+      "imageUrl": "/assets/running.png",
+      "label": "FUTEBOL"
+    }
   },
   {
     "id": 4,
     "name": "Originals",
-    "billboard": ""
+    "billboard": {
+      "id": 4,
+      "imageUrl": "/assets/running.png",
+      "label": "ORIGINALS"
+    }
   },
   {
     "id": 5,
     "name": "Running",
-    "billboard": ""
+    "billboard": {
+      "id": 5,
+      "imageUrl": "./assets/running.png",
+      "label": "RUNNING"
+    }
   }
 ]
