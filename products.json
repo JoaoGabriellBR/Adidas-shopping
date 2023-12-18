@@ -31,7 +31,7 @@
     "images": [
       {
         "id": 1,
-        "url": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd33f5c542604bcf858baca60184722a_9366/camiseta-amplifier.jpg"
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd33f5c542604bcf858baca60184722a_9366/Camiseta_Amplifier_Azul_EK0176_01_laydown.jpg"
       }
     ],
     "name": "Camiseta AMPLIFIER",
@@ -361,6 +361,208 @@
     "size": {
       "id": 1,
       "name": "P"
+    }
+  },
+  {
+    "id": 12,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac44c2239e8b4f31af2fa3a0c10256a5_9366/Jaqueta_A.Blondey_Boucle_Skateboarding_Marrom_IK9615_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fa01b7fc75954b85aa83f69a453d478d_9366/Jaqueta_A.Blondey_Boucle_Skateboarding_Marrom_IK9615_02_laydown_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0e76a1617545480194f3fd2782ad4962_9366/Jaqueta_A.Blondey_Boucle_Skateboarding_Marrom_IK9615_41_detail.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ab427791a33d4d2b81adae5a4812dec7_9366/Jaqueta_A.Blondey_Boucle_Skateboarding_Marrom_IK9615_42_detail.jpg"
+      }
+    ],
+    "name": "Jaqueta A.BLONDEY BOUCLE SKATEBOARDING",
+    "category": [
+      {
+        "id": 4,
+        "name": "Originals"
+      }
+    ],
+    "price": "699.99",
+    "description": "O Boucle Tt é novo para essas características de filtro em nosso website, na categoria Homem. Mas você já pode visualizar as imagens acima e ter mais detalhes, para conhecer o produto de diferentes ângulos em primeira mão.",
+    "color": {
+      "id": 2,
+      "name": "Marrom",
+      "value": "#7f5937"
+    },
+    "size": {
+      "id": 3,
+      "name": "G"
+    }
+  },
+  {
+    "id": 13,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/298a90bbce3b4dceb456ac360103711b_9366/Jaqueta_Adicolor_SST_Preto_GN8451_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/96a4aca40a8648ab9de4ac3601037d0d_9366/Jaqueta_Adicolor_SST_Preto_GN8451_02_laydown_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7b6f858c4e4e4762916dac3601038bb9_9366/Jaqueta_Adicolor_SST_Preto_GN8451_41_detail.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a4a90c09b15647238bdeac360103988d_9366/Jaqueta_Adicolor_SST_Preto_GN8451_42_detail.jpg"
+      }
+    ],
+    "name": "Jaqueta ADICOLOR SST",
+    "category": [
+      {
+        "id": 4,
+        "name": "Originals"
+      }
+    ],
+    "price": "279.99",
+    "description": "Você tem muito respeito pelo passado. Mas, definitivamente, suas raízes estão no futuro. Combine os dois ao vestir esta jaqueta juvenil. Aposte no visual autêntico adidas com as icônicas Três Listras e um toque de friso. O brilho característico da malha completa o estilo original.",
+    "color": {
+      "id": 1,
+      "name": "Preto",
+      "value": "#000"
+    },
+    "size": {
+      "id": 3,
+      "name": "G"
+    }
+  },
+  {
+    "id": 14,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b2e8fd32e5d44772a61eaf080118fc08_9366/CREW_Cinza_IC3062_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/c_crop,f_auto,fl_lossy,g_north,h_840,q_auto,y_40/h_840/b2e8fd32e5d44772a61eaf080118fc08_9366/CREW_Cinza_IC3062_01_laydown.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cf7fcbf37c7549f68b36af0801190450_9366/CREW_Cinza_IC3062_02_laydown_hover.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c7c9a77ffbc4cb3915daf0801190caa_9366/CREW_Cinza_IC3062_41_detail.jpg"
+      }
+    ],
+    "name": "Jaqueta Crew",
+    "category": [
+      {
+        "id": 4,
+        "name": "Originals"
+      }
+    ],
+    "price": "179.99",
+    "description": "O Crew é novo para essas características de filtro em nosso website, na categoria Kids. Mas você já pode visualizar as imagens acima e ter mais detalhes, para conhecer o produto de diferentes ângulos em primeira mão.",
+    "color": {
+      "id": 6,
+      "name": "Cinza",
+      "value": "#48484d"
+    },
+    "size": {
+      "id": 3,
+      "name": "G"
+    }
+  },
+  {
+    "id": 15,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d81276521b24b1a95bdac3a00cf0c86_9366/Camiseta_Essentials_Slim_Logo_Preto_GL0769_01_laydown.jpg"
+      }
+    ],
+    "name": "Camiseta ESSENTIALS SLIM LOGO",
+    "category": [
+      {
+        "id": 2,
+        "name": "Sportswear"
+      }
+    ],
+    "price": "129.99",
+    "description": "Procurando um look moderno e casual para usar todos os dias? Esta camiseta justa se encaixa perfeitamente no seu pedido. Linhas limpas e estilo adidas suave misturam-se nesta camiseta comfy, que combina facilmente com joggers, jeans ou leggings.",
+    "color": {
+      "id": 1,
+      "name": "Preto",
+      "value": "#000"
+    },
+    "size": {
+      "id": 1,
+      "name": "P"
+    }
+  },
+  {
+    "id": 16,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/83e63b969c964074a6c5adc900361daf_9366/Camiseta_adidas_Sportswear_Future_Icons_3-Stripes_Verde_HE0314_01_laydown.jpg"
+      }
+    ],
+    "name": "Camiseta ADIDAS SPORTSWEAR FUTURE ICONS 3-STRIPES",
+    "category": [
+      {
+        "id": 2,
+        "name": "Sportswear"
+      }
+    ],
+    "price": "179.99",
+    "description": "Você pega firme no treino e se concentra ainda mais nas jogadas. Deixe transparecer a mesma intensidade nas suas horas de folga com esta camiseta adidas. A maciez do tecido de algodão proporciona um caimento descontraído e drapeado de conforto, facilitando os movimentos. Exceto se estiver só de boa. O descanso e o relaxamento também são partes importantes do processo.",
+    "color": {
+      "id": 5,
+      "name": "Verde",
+      "value": "#8f9669"
+    },
+    "size": {
+      "id": 1,
+      "name": "P"
+    }
+  },
+  {
+    "id": 17,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4700321582704a418b13aca8009b9a9d_9366/Moletom_Capuz_Ziper_Essentials_3-Stripes_Preto_GK9032_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/c_crop,f_auto,fl_lossy,g_north,h_840,q_auto,y_40/h_840/4700321582704a418b13aca8009b9a9d_9366/Moletom_Capuz_Ziper_Essentials_3-Stripes_Preto_GK9032_01_laydown.jpg"
+      }
+    ],
+    "name": "Moletom CAPUZ ZÍPER ESSENTIALS 3-STRIPES",
+    "category": [
+      {
+        "id": 2,
+        "name": "Sportswear"
+      }
+    ],
+    "price": "399.99",
+    "description": "Antes de sair, vista esta blusa de moletom com capuz de fleece e garanta máximo conforto. Aberta ou com o zíper levantado, o estilo atemporal adidas combina com tudo, típico de um clássico para usar o dia todo. Os punhos e a barra canelados mantêm o ajuste no lugar, e o frio do lado de fora.",
+    "color": {
+      "id": 1,
+      "name": "Preto",
+      "value": "#000"
+    },
+    "size": {
+      "id": 2,
+      "name": "M"
     }
   }
 ]
