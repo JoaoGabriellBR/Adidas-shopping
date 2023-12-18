@@ -109,7 +109,8 @@
     "price": "149.99",
     "description": "Esqueça o segundo uniforme e deixe os jalecos nos vestiários. Esta camisa de futebol juvenil adidas reversível oferece dois looks em um. Assim que escolher um dos lados e coloca-lá no corpo, o tecido AEROREADY remove o suor para manter o conforto, e o logo das Três Barras aplicado por calor confirma que você vai dominar a partida desde o primeiro minuto.",
     "color": {
-      "name": "Preto / Team Light Grey",
+      "id": 6,
+      "name": "Cinza",
       "value": "#D3D3D3"
     },
     "size": {
@@ -143,6 +144,7 @@
     "price": "119.99",
     "description": "Treinando como profissionais. Relaxando como campeões. Esta camisa de futebol infantil exibe um design clean e clássico com o Badge of Sport da adidas no peito. O tecido AEROREADY que remove a umidade mantém seu corpo seco e refrescado.",
     "color": {
+      "id": 5,
       "name": "Verde",
       "value": "#3f7055"
     },
@@ -180,6 +182,181 @@
       "id": 4,
       "name": "Amarelo",
       "value": "#eccf40"
+    },
+    "size": {
+      "id": 1,
+      "name": "P"
+    }
+  },
+  {
+    "id": 7,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ce0ee60a3cbd4d619445add000d9bf34_9366/Camisa_Entrada_22_Unissex_Infantil_Azul_HG3948_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f1ac7621a4c44ce78bdfadd000d9d496_9366/Camisa_Entrada_22_Unissex_Infantil_Azul_HG3948_02_laydown_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/266aabd5d62548db9444add000d9fe49_9366/Camisa_Entrada_22_Unissex_Infantil_Azul_HG3948_41_detail.jpg"
+      }
+    ],
+    "name": "Camisa ENTRADA 22 UNISSEX INFANTIL",
+    "category": [
+      {
+        "id": 3,
+        "name": "Futebol"
+      }
+    ],
+    "price": "149.99",
+    "description": "Treinando como profissionais. Relaxando como campeões. Esta camisa de futebol infantil exibe um design clean e clássico com o Badge of Sport da adidas no peito. O tecido AEROREADY que remove a umidade mantém seu corpo seco e refrescado.",
+    "color": {
+      "id": 6,
+      "name": "Azul",
+      "value": "#042b6d"
+    },
+    "size": {
+      "id": 1,
+      "name": "P"
+    }
+  },
+  {
+    "id": 8,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/be9d18505dcf4dd1829b666c73728a33_9366/Camisa_3_Sao_Paulo_23-24_Infantil_Preto_IB0958_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c0fe0ee04bb9404f9ba4982787496ce5_9366/Camisa_3_Sao_Paulo_23-24_Infantil_Preto_IB0958_02_laydown_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/217eaab2023f4b47a42354d5e9887a82_9366/Camisa_3_Sao_Paulo_23-24_Infantil_Preto_IB0958_41_detail.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3503383a79244df88c67f05b9fd0c703_9366/Camisa_3_Sao_Paulo_23-24_Infantil_Preto_IB0958_42_detail.jpg"
+      }
+    ],
+    "name": "Camisa 3 SÃO PAULO 23/24 INFANTIL",
+    "category": [
+      {
+        "id": 3,
+        "name": "Futebol"
+      }
+    ],
+    "price": "299.99",
+    "description": "Inspirada em um ídolo do Clube chega a nova camisa do uniforme 3 do Tricolor. Vista-a para sentir o conforto do tecido macio e suave, além do AEROREADY que remove o suor. Feito 100% de materiais reciclados, este produto representa apenas uma das nossas soluções para ajudar a acabar com os resíduos plásticos.",
+    "color": {
+      "id": 6,
+      "name": "Preto",
+      "value": "#000"
+    },
+    "size": {
+      "id": 1,
+      "name": "P"
+    }
+  },
+  {
+    "id": 9,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d395c1e81ac4fb7ac6599816c9b873c_9366/Camiseta_Algodao_Essentials_Linear_Logo_Slim_Fit_Roxo_IJ6235_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5a13d1b846b54ca3a4c7675e805d54ea_9366/Camiseta_Algodao_Essentials_Linear_Logo_Slim_Fit_Roxo_IJ6235_02_laydown_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7f4f5536d76d4c8780cd685933a925a3_9366/Camiseta_Algodao_Essentials_Linear_Logo_Slim_Fit_Roxo_IJ6235_41_detail.jpg"
+      }
+    ],
+    "name": "Camiseta ALGODÃO ESSENTIALS LINEAR LOGO SLIM FIT",
+    "category": [
+      {
+        "id": 2,
+        "name": "Sportswear"
+      }
+    ],
+    "price": "79.99",
+    "description": "Um ícone adidas. Esta camiseta é feita de algodão e tem modelagem justa que envolve o corpo. Combine esta camiseta juvenil adidas com calça de moletom de pernas largas e tênis para um look casual moderno.",
+    "color": {
+      "id": 7,
+      "name": "Rosa",
+      "value": "#9985a0"
+    },
+    "size": {
+      "id": 2,
+      "name": "M"
+    }
+  },
+  {
+    "id": 10,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9913587cdabe47a18858ad3753f75216_9366/Regata_Trefoil_Branco_IP0679_01_laydown.jpg"
+      }
+    ],
+    "name": "Regata TREFOIL",
+    "category": [
+      {
+        "id": 4,
+        "name": "Originals"
+      }
+    ],
+    "price": "119.99",
+    "description": "Celebra a marca que deu início a tudo. Esta regata clássica deixa seu orgulho adidas brilhar. O logo Trefoil em destaque conecta você a décadas de atletas e mentes criativas, um legado que começou nas pistas e nas quadras, mas que agora se espalhou pelo mundo. O tecido misto de algodão mantém a vibe autêntica e o conforto verdadeiro. Vista com uma calça jogger nos momentos de descanso, ou estilize com um blazer para sair à noite.",
+    "color": {
+      "id": 2,
+      "name": "Branco",
+      "value": "#FFF"
+    },
+    "size": {
+      "id": 2,
+      "name": "M"
+    }
+  },
+  {
+    "id": 11,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/95f6fdbf9bae44af99051e0a0caaaeac_9366/Camisa_2_CR_Flamengo_23-24_Feminina_Branco_HS5196_01_laydown.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c0301f2116a84c508ae962982b66751a_9366/Camisa_2_CR_Flamengo_23-24_Feminina_Branco_HS5196_02_laydown_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1021c4af00534e7ea21d16c0a4bcc771_9366/Camisa_2_CR_Flamengo_23-24_Feminina_Branco_HS5196_41_detail.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ba2c537d9c1a42bb879b29f10078c69e_9366/Camisa_2_CR_Flamengo_23-24_Feminina_Branco_HS5196_42_detail.jpg"
+      }
+    ],
+    "name": "Camisa 2 CR FLAMENGO 23/24 FEMININA",
+    "category": [
+      {
+        "id": 3,
+        "name": "Futebol"
+      }
+    ],
+    "price": "349.99",
+    "description": "Clean e clássica. Esta regata adidas do segundo uniforme do CR Flamengo foi criada para manter os torcedores confortáveis enquanto torcem pelo time. Por trás do design atemporal, o tecido AEROREADY que remove o suor garante a autoconfiança, não importa o que aconteça no campo de futebol. O escudo premium bordado deixa claro para quem vai a sua torcida.",
+    "color": {
+      "id": 2,
+      "name": "Branco",
+      "value": "#FFF"
     },
     "size": {
       "id": 1,

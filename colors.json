@@ -1,23 +1,37 @@
 [
-    {
-        "id": 1,
-        "name": "Preto",
-        "value": "#000"
-    },
-    {
-        "id": 2,
-        "name": "Branco",
-        "value": "#FFF"
-    },
-    {
-        "id": 3,
-        "name": "Vermelho Escarlate",
-        "value": "#FF2400"
-    },
-    {
-        "id": 4,
-        "name": "Amarelo",
-        "value": "#eccf40"
-    }
-
+  {
+    "id": 1,
+    "name": "Preto",
+    "value": "#000"
+  },
+  {
+    "id": 2,
+    "name": "Branco",
+    "value": "#FFF"
+  },
+  {
+    "id": 3,
+    "name": "Vermelho Escarlate",
+    "value": "#FF2400"
+  },
+  {
+    "id": 4,
+    "name": "Amarelo",
+    "value": "#eccf40"
+  },
+  {
+    "id": 5,
+    "name": "Verde",
+    "value": "#3f7055"
+  },
+  {
+    "id": 6,
+    "name": "Cinza",
+    "value": "#D3D3D3"
+  },
+  {
+    "id": 7,
+    "name": "Rosa",
+    "value": "#9985a0"
+  }
 ]
