@@ -31,7 +31,7 @@
     "name": "Originals",
     "billboard": {
       "id": 4,
-      "imageUrl": "/assets/originals.png",
+      "imageUrl": "/images/originals.png",
       "label": "ORIGINALS"
     }
   },
@@ -40,7 +40,7 @@
     "name": "Running",
     "billboard": {
       "id": 5,
-      "imageUrl": "./assets/running.png",
+      "imageUrl": "/images/running.png",
       "label": "RUNNING"
     }
   }

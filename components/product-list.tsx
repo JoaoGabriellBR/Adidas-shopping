@@ -5,20 +5,31 @@ import ProductCard from "./ui/product-card";
 interface ProductListProps {
   title: string;
   items: Product[];
+  initialLength?: number;
+  finalLength?: number;
 }
 
-const ProductList: React.FC<ProductListProps> = ({ title, items }) => {
+const ProductList: React.FC<ProductListProps> = ({ title, items, initialLength, finalLength }) => {
+  let displayedItems = items;
+
+  if (initialLength !== undefined && finalLength !== undefined) {
+    displayedItems = items.slice(initialLength, finalLength);
+  } else if (initialLength !== undefined) {
+    displayedItems = items.slice(initialLength);
+  }
+
   return (
     <div className="space-y-4">
       <h3 className="font-bold text-xl sm:text-3xl">{title}</h3>
-      { items.length === 0 && <NoResults /> }
+      {displayedItems.length === 0 && <NoResults />}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {items?.map((item) => (
-            <ProductCard key={item?.id} data={item} />
+        {displayedItems.map((item) => (
+          <ProductCard key={item.id} data={item} />
         ))}
       </div>
     </div>
   );
 };
+
 
 export default ProductList;
