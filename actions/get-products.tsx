@@ -1,39 +1,5 @@
-// import { Product } from "@/types";
-// import qs from 'query-string'
-
-// const URL = `${process.env.NEXT_PUBLIC_API_URL}/products`;
-
-// interface Query {
-//   categoryId?: string;
-//   colorId?: string;
-//   sizeId?: string;
-//   description?: string;
-//   isFeatured?: boolean;
-// }
-
-// const getProducts = async (query: Query): Promise<Product[]> => {
-//   const url = qs.stringifyUrl({
-//     url: URL,
-//     query: {
-//       description: query.description,
-//       colorId: query.colorId,
-//       sizeId: query.sizeId,
-//       categoryId: query.categoryId,
-//       isFeatured: query.isFeatured
-//     }
-//   });
-  
-//   const res = await fetch(url);
-
-//   return res.json();
-// };
-
-// export default getProducts;
-
-// Remova a importação do módulo 'query-string', pois não é mais necessário.
-
 import { Product } from "@/types";
-import products from "@/products.json"; // Importe os dados diretamente do arquivo products.json
+import products from "@/products.json";
 
 interface Query {
   categoryId?: string;

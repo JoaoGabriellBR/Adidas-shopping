@@ -4,7 +4,7 @@
     "name": "Training",
     "billboard": {
       "id": 1,
-      "imageUrl": "/assets/running.png",
+      "imageUrl": "/images/training.png",
       "label": "TRAINING"
     }
   },
@@ -13,7 +13,7 @@
     "name": "Sportswear",
     "billboard": {
       "id": 2,
-      "imageUrl": "/assets/running.png",
+      "imageUrl": "/images/sportswear.png",
       "label": "SPORTSWEAR"
     }
   },
@@ -22,7 +22,7 @@
     "name": "Futebol",
     "billboard": {
       "id": 3,
-      "imageUrl": "/assets/running.png",
+      "imageUrl": "/images/futebol.png",
       "label": "FUTEBOL"
     }
   },
@@ -31,7 +31,7 @@
     "name": "Originals",
     "billboard": {
       "id": 4,
-      "imageUrl": "/assets/running.png",
+      "imageUrl": "/assets/originals.png",
       "label": "ORIGINALS"
     }
   },
