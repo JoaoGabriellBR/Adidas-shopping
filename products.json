@@ -24,7 +24,8 @@
     "size": {
       "id": 2,
       "name": "M"
-    }
+    },
+    "type": "t-shirt"
   },
   {
     "id": 2,
@@ -50,7 +51,8 @@
     "size": {
       "id": 2,
       "name": "M"
-    }
+    },
+    "type": "t-shirt"
   },
   {
     "id": 3,
@@ -81,7 +83,8 @@
     "size": {
       "id": 2,
       "name": "M"
-    }
+    },
+    "type": "t-shirt"
   },
   {
     "id": 4,
@@ -116,7 +119,8 @@
     "size": {
       "id": 1,
       "name": "P"
-    }
+    },
+    "type": "shirt"
   },
   {
     "id": 5,
@@ -151,7 +155,8 @@
     "size": {
       "id": 1,
       "name": "P"
-    }
+    },
+    "type": "shirt"
   },
   {
     "id": 6,
@@ -186,7 +191,8 @@
     "size": {
       "id": 1,
       "name": "P"
-    }
+    },
+    "type": "shirt"
   },
   {
     "id": 7,
@@ -221,7 +227,8 @@
     "size": {
       "id": 1,
       "name": "P"
-    }
+    },
+    "type": "shirt"
   },
   {
     "id": 8,
@@ -260,7 +267,8 @@
     "size": {
       "id": 1,
       "name": "P"
-    }
+    },
+    "type": "shirt"
   },
   {
     "id": 9,
@@ -295,7 +303,8 @@
     "size": {
       "id": 2,
       "name": "M"
-    }
+    },
+    "type": "t-shirt"
   },
   {
     "id": 10,
@@ -305,7 +314,7 @@
         "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9913587cdabe47a18858ad3753f75216_9366/Regata_Trefoil_Branco_IP0679_01_laydown.jpg"
       }
     ],
-    "name": "Regata TREFOIL",
+    "name": "Camisa regata TREFOIL",
     "category": [
       {
         "id": 4,
@@ -322,7 +331,8 @@
     "size": {
       "id": 2,
       "name": "M"
-    }
+    },
+    "type": "shirt"
   },
   {
     "id": 11,
@@ -361,7 +371,8 @@
     "size": {
       "id": 1,
       "name": "P"
-    }
+    },
+    "type": "shirt"
   },
   {
     "id": 12,
@@ -400,7 +411,8 @@
     "size": {
       "id": 3,
       "name": "G"
-    }
+    },
+    "type": "jacket"
   },
   {
     "id": 13,
@@ -439,7 +451,8 @@
     "size": {
       "id": 3,
       "name": "G"
-    }
+    },
+    "type": "jacket"
   },
   {
     "id": 14,
@@ -478,7 +491,8 @@
     "size": {
       "id": 3,
       "name": "G"
-    }
+    },
+    "type": "jacket"
   },
   {
     "id": 15,
@@ -505,7 +519,8 @@
     "size": {
       "id": 1,
       "name": "P"
-    }
+    },
+    "type": "t-shirt"
   },
   {
     "id": 16,
@@ -532,7 +547,8 @@
     "size": {
       "id": 1,
       "name": "P"
-    }
+    },
+    "type": "t-shirt"
   },
   {
     "id": 17,
@@ -563,6 +579,207 @@
     "size": {
       "id": 2,
       "name": "M"
-    }
+    },
+    "type": "jacket"
+  },
+  {
+    "id": 18,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/02b1557cadec4223919bab5900e84ba5_9366/Tenis_Slip-On_Superstar_Preto_EW2053_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b75a870da37c46cfa004ab5900e84e9c_9366/Tenis_Slip-On_Superstar_Preto_EW2053_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e620a06b4b464fef841cab590020286a_9366/Tenis_Slip-On_Superstar_Preto_EW2053_03_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0fc29731133d4002be2dab59002210e7_9366/Tenis_Slip-On_Superstar_Preto_EW2053_04_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS SLIP-ON SUPERSTAR",
+    "category": [
+      {
+        "id": 4,
+        "name": "Originals"
+      }
+    ],
+    "price": "399.99",
+    "description": "Ícone das quadras de basquete desde seu lançamento em 1969, o adidas Superstar chegou às ruas e se transformou em um ícone da moda urbana, conquistando multidões. Seguindo no auge, o inconfundível tênis da biqueira shell toe surge reinventado, com novo design slip-on. Faixas elásticas cruzadas no lugar dos cadarços oferecem ajuste confortável e ultrafeminino. O cupsole de borracha serve de base para o cabedal em borracha sintética expandida com detalhes em couro.",
+    "color": {
+      "id": 1,
+      "name": "Preto",
+      "value": "#000"
+    },
+    "size": {
+      "id": 4,
+      "name": "34-39"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 19,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d92ba80e65b47979462ac31012ba09d_9366/Tenis_Forum_Low_Branco_FY7755_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1411e2879557408088bdac31012bbd17_9366/Tenis_Forum_Low_Branco_FY7755_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/38162ddf8c874c7d80adac31012e0330_9366/Tenis_Forum_Low_Branco_FY7755_03_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b926b43e5a314009b1baac310129c074_9366/Tenis_Forum_Low_Branco_FY7755_04_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS FORUM LOW",
+    "category": [
+      {
+        "id": 4,
+        "name": "Originals"
+      }
+    ],
+    "price": "799.99",
+    "description": "Mais que apenas um tênis, ele é uma declaração. O adidas Forum entrou em cena em 84 e arrebatou todo o amor das quadras e do show biz. Este tênis clássico traz de volta a atitude dos anos 80, a energia explosiva do basquete e o icônico design de tira em X no tornozelo, destilados em uma versão de cano baixo para as ruas.",
+    "color": {
+      "id": 2,
+      "name": "Branco",
+      "value": "#FFF"
+    },
+    "size": {
+      "id": 5,
+      "name": "33-45"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 20,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f8d6bc65e45c4acbaae8a0d63bf2fe06_9366/Tenis_Sambae_Preto_ID0436_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/acb051d40d77438483d656e6c5b21ebe_9366/Tenis_Sambae_Preto_ID0436_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/615fe5bac4354feba689c839606c9c4d_9366/Tenis_Sambae_Preto_ID0436_03_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/42c3b39b796040c8a55956eb31fb4560_9366/Tenis_Sambae_Preto_ID0436_04_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS SAMBAE",
+    "category": [
+      {
+        "id": 4,
+        "name": "Originals"
+      }
+    ],
+    "price": "599.99",
+    "description": "Este tênis adidas Sambae dá um toque moderno a um design icônico. Antes uma chuteira de futsal, esta versão é feita com cabedal de couro macio, solado de borracha natural translúcido e as Três Listras bordadas com qualidade superior, permitindo que o look se adapte facilmente às ruas. Detalhes sutis, como o acabamento de costura na biqueira, criam um estilo marcante.",
+    "color": {
+      "id": 1,
+      "name": "Preto",
+      "value": "#000"
+    },
+    "size": {
+      "id": 6,
+      "name": "36-39"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 20,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/92ffc42c863b4d3b85a04a517d00e765_9366/Tenis_Gazelle_Bold_Rosa_IE0420_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/582e8e2ce48a495b841b1fbc13ee67b7_9366/Tenis_Gazelle_Bold_Rosa_IE0420_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c1f0d816cb5e486ca6b91746ba67d62c_9366/Tenis_Gazelle_Bold_Rosa_IE0420_03_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d160f5a8b3d49b4aa967849726e5d06_9366/Tenis_Gazelle_Bold_Rosa_IE0420_04_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS GAZELLE BOLD",
+    "category": [
+      {
+        "id": 4,
+        "name": "Originals"
+      }
+    ],
+    "price": "699.99",
+    "description": "Não existiria uma lista dos tênis mais icônicos da adidas sem o Gazelle. Usado pela primeira vez nas quadras na década de 70, o tênis de suede está ganhando novos fãs até hoje. Agora, o estilo que você tanto quer é levado a um novo patamar. Com três camadas de altura, para uma nova perspectiva sobre o estilo clássico. Os detalhes mantêm o estilo esportivo com suede macio e as Três Listras serrilhadas.",
+    "color": {
+      "id": 7,
+      "name": "Rosa",
+      "value": "#9985a0"
+    },
+    "size": {
+      "id": 5,
+      "name": "33-45"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 21,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8192972f95ca41c4905dee5e8944f988_9366/Tenis_Runfalcon_3.0_Preto_ID2270_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/08713c159fef4e92ae6987b965090862_9366/Tenis_Runfalcon_3.0_Preto_ID2270_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fdaac0dfeb0543a8af64e9d2fc00d8ac_9366/Tenis_Runfalcon_3.0_Preto_ID2270_03_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/50e8c7d3245f4458b8aabe4e0fd7687c_9366/Tenis_Runfalcon_3.0_Preto_ID2270_04_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS RUNFALCON 3.0",
+    "category": [
+      {
+        "id": 5,
+        "name": "Running"
+      }
+    ],
+    "price": "399.99",
+    "description": "Prepare-se para uma corrida no parque ou uma caminhada até a cafeteria com este versátil tênis de corrida adidas. A entressola Cloudfoam proporciona amortecimento e conforto desde o primeiro passo. O cabedal em tecido é confortável e respirável e o solado de borracha oferece aderência suficiente para uma caminhada confiante.",
+    "color": {
+      "id": 1,
+      "name": "Preto",
+      "value": "#000"
+    },
+    "size": {
+      "id": 5,
+      "name": "33-45"
+    },
+    "type": "sneakers"
   }
 ]
