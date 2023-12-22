@@ -6,7 +6,6 @@ import Navbar from "@/components/navbar";
 import ModalProvider from "@/providers/modal-provider";
 import ToastProvider from "@/providers/toast-provider";
 
-
 const BRFrima = localFont({
   src: [
     {
@@ -39,49 +38,24 @@ const BRFrima = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Adidas. Just Do It. Nike.com",
-    template: "%s | Nike",
+    default: "Adidas. Nada é impossível. Adidas.com",
+    template: "%s | Adidas",
   },
   keywords: [
-    "Nike",
-    "Air Force 1",
-    "Jordans",
-    "SB Dunks",
-    "Air Max",
-    "New arrivals",
-    "Dunks and Blazers",
-    "athletics",
+    "Adidas",
     "adidas.com",
-    "Converse",
   ],
   description:
-    "Nike delivers innovative products, experiences and services to inspire athletes.",
-  applicationName: "Nike.com",
-  authors: [{ name: "Nike" }],
+    "A Adidas oferece produtos, experiências e serviços inovadores para inspirar os atletas.",
+  applicationName: "adidas.com",
+  authors: [{ name: "Adidas" }],
   openGraph: {
-    title: "Nike. Just Do It",
+    title: "Adidas. Nada é impossível",
     description:
-      "Nike delivers innovative products, experiences and services to inspire athletes.",
-    url: "https://nike.com",
-    siteName: "",
-    images: [
-      {
-        url: "https://c.static-nike.com/a/images/w_1920,c_limit/bzl2wmsfh7kgdkufrrjq/image.jpg",
-      },
-    ],
-    locale: "en-US",
+      "A Adidas oferece produtos, experiências e serviços inovadores para inspirar os atletas.",
+    url: "https://adidas.com",
+    locale: "pt-BR",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Adidas Shop",
-    description:
-      "Nike delivers innovative products, experiences and services to inspire athletes.",
-    site: "@nike",
-    creator: "@nike",
-    images: [
-      "https://c.static-nike.com/a/images/w_1920,c_limit/bzl2wmsfh7kgdkufrrjq/image.jpg",
-    ],
   },
   category: "e-commerce",
 };
@@ -92,7 +66,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={BRFrima.className}>
         <ModalProvider />
         <ToastProvider />

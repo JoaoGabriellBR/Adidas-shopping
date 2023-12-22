@@ -10,7 +10,6 @@ interface Query {
 }
 
 const getProducts = async (query: Query): Promise<Product[]> => {
-  // Aqui você pode filtrar os produtos com base nos parâmetros de consulta
   const filteredProducts = products.filter((product) => {
     return (
       (!query.categoryId || product.category[0]?.id === Number(query.categoryId)) &&
