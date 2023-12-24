@@ -58,7 +58,7 @@ const Footer = () => {
       <div className="mx-auto py-20 text-center flex flex-col gap-y-5 items-center justify-center">
         <div className="flex items-center justify-center gap-4">
           {socialMedias.map((item, index) => (
-            <Link key={index} href={item.href}>
+            <Link key={index} href={item.href} target="blank">
               <div className={divIconStyles}>{item.icon}</div>
             </Link>
           ))}
@@ -69,6 +69,7 @@ const Footer = () => {
               className="hover:text-white text-xs text-[#888888]"
               key={index}
               href={link.href}
+              target="blank"
             >
               {link.name}
             </Link>

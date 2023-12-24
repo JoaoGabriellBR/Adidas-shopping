@@ -1,5 +1,8 @@
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
+
 export interface Billboard {
-  id: string;
+  id: number;
   label: string;
   imageUrl: string;
 }
@@ -46,6 +49,12 @@ export interface Color {
   id: number;
   name: string;
   value: string;
+}
+
+export interface FilterProps {
+  data: (Size | Color)[];
+  name: string;
+  valueKey: string;
 }
 
 export interface Product {
@@ -98,4 +107,15 @@ export interface CartItemProps {
 export interface MobileFiltersProps {
   sizes: Size[];
   colors: Color[];
+}
+
+export interface MainNavProps {
+  data: Category[];
+}
+
+export interface PreviewModalStore {
+  isOpen: boolean;
+  data?: Product;
+  onOpen: (data: Product) => void;
+  onClose: () => void;
 }

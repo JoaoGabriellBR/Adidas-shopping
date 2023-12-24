@@ -1,13 +1,9 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { Category } from "@/types";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-interface MainNavProps {
-  data: Category[];
-}
+import { MainNavProps } from "@/types";
 
 const MainNav: React.FC<MainNavProps> = ({ data }) => {
   const pathName = usePathname();
@@ -17,7 +13,7 @@ const MainNav: React.FC<MainNavProps> = ({ data }) => {
     label: route.name,
     active: pathName === `/category/${route.id}`,
   }));
-  
+
   return (
     <nav className="mx-3 md:mx-6 flex overflow-auto scrollbar-hide whitespace-nowrap items-center space-x-4 lg:space-x-6">
       {routes.map((route) => (

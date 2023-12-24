@@ -9,7 +9,6 @@ import Link from "next/link";
 export const revalidate = 0;
 
 const HomePage = async () => {
-
   return (
     <Container>
       <div className="space-y-10 pb-10">
