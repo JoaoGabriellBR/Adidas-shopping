@@ -1,9 +1,6 @@
-// import getProducts from "@/actions/get-products";
 import ProductList from "@/components/product-list";
 import Container from "@/components/ui/container";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
-import localFont from "next/font/local";
 import Button from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import products from "@/products.json";
@@ -16,10 +13,7 @@ const HomePage = async () => {
   return (
     <Container>
       <div className="space-y-10 pb-10">
-
-
         <div className="bg-[#ECEDEF] py-7 md:py-4 px-4 sm:px-6 lg:px-8 rounded-xl relative flex flex-row flex-wrap justify-between items-center">
-
           <div className="space-y-2">
             <h1 className="text-3xl md:text-5xl lg:text-6xl">Tênis Runfalcon 3.0</h1>
             <p className="text-lg md:text-2xl lg:text-3xl">a partir de</p>
@@ -34,14 +28,12 @@ const HomePage = async () => {
               </Button>
             </Link>
           </div>
-
           <Image
             src="/images/tenis-adidas.png"
             width={450}
             height={400}
             alt="Tênis Runfalcon 3.0"
           />
-
         </div>
 
         <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
@@ -62,7 +54,7 @@ const HomePage = async () => {
         </div>
 
         <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
-          <ProductList initialLength={8} title="Produtos em destaque" items={products} />
+          <ProductList initialLength={8} title="Outros Produtos" items={products} />
         </div>
 
       </div>

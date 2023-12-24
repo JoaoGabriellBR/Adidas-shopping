@@ -1,13 +1,6 @@
 import { Product } from "@/types";
 import products from "@/products.json";
-
-interface Query {
-  categoryId?: string;
-  colorId?: string;
-  sizeId?: string;
-  description?: string;
-  isFeatured?: boolean;
-}
+import { Query } from "@/types";
 
 const getProducts = async (query: Query): Promise<Product[]> => {
   const filteredProducts = products.filter((product) => {

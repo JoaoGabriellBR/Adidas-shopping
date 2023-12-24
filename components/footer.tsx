@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { Instagram, Facebook, Youtube, Twitter } from "lucide-react";
 
+const divIconStyles = "bg-white p-2 rounded-full text-2xl text-black hover:opacity-60";
+const iconStyles = "w-4 h-4"
+
 const Links = [
   {
     name: "Guias",
@@ -23,9 +26,6 @@ const Links = [
     href: "",
   },
 ];
-
-const divIconStyles = "bg-white p-2 rounded-full text-2xl text-black hover:opacity-60";
-const iconStyles = "w-4 h-4"
 
 const socialMedias = [
   {

@@ -10,13 +10,23 @@ export interface Category {
   billboard: Billboard;
 }
 
+export interface CategoryPageProps {
+  params: {
+    categoryId: string;
+  };
+  searchParams: {
+    colorId: string;
+    sizeId: string;
+  };
+}
+
 export interface Image {
   id: string;
   url: string;
 }
 
 export interface Size {
-  id: string;
+  id: string | number;
   name: string;
 }
 
@@ -42,4 +52,12 @@ export interface CartStore {
   addItem: (data: Product) => void;
   removeItem: (id: string) => void;
   removeAll: () => void;
+}
+
+export interface Query {
+  categoryId?: string;
+  colorId?: string;
+  sizeId?: string;
+  description?: string;
+  isFeatured?: boolean;
 }
