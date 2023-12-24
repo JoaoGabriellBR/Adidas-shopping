@@ -4,19 +4,12 @@ import Image from "next/image";
 import { MouseEventHandler } from "react";
 import { Expand, ShoppingCart } from "lucide-react";
 import { useRouter } from "next/navigation";
-
-// import Currency from "@/components/ui/currency";
 import IconButton from "@/components/ui/icon-button";
 import usePreviewModal from "@/hooks/use-preview-modal";
 import useCart from "@/hooks/use-cart";
-import { Product } from "@/types";
-import camisa from "@/assets/camiseta-aeroready-designed-for-movement.png"
+import { ProductCardProps } from "@/types";
 
-interface ProductCard {
-  data: Product;
-}
-
-const ProductCard: React.FC<ProductCard> = ({ data }) => {
+const ProductCard: React.FC<ProductCardProps | any> = ({ data }) => {
   const previewModal = usePreviewModal();
   const cart = useCart();
   const router = useRouter();
@@ -68,9 +61,7 @@ const ProductCard: React.FC<ProductCard> = ({ data }) => {
         <p className="font-semibold text-lg">{data.name}</p>
         <p className="text-sm text-gray-500">{data?.category[0]?.name}</p>
       </div>
-      {/* Price & Reiew */}
       <div className="flex items-center justify-between">
-        {/* <Currency value={data?.price} /> */}
         <p>R$ {data?.price}</p>
       </div>
     </div>

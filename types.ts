@@ -68,6 +68,10 @@ export interface Product {
   images: Image[] | any;
 }
 
+export interface ProductCardProps {
+  data: Product;
+}
+
 export interface ProductListProps {
   title: string;
   items: Product[] | any;
