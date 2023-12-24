@@ -2,20 +2,13 @@
 
 import NextImage from "next/image";
 import { Tab } from "@headlessui/react";
-
-import { Image } from "@/types";
-
+import { GalleryProps, Image } from "@/types";
 import GalleryTab from "./gallery-tab";
-import camisa from "@/assets/camiseta-aeroready-designed-for-movement.png"
-
-interface GalleryProps {
-  images: Image[];
-}
 
 const Gallery: React.FC<GalleryProps> = ({
   images = []
 }) => {
-  return ( 
+  return (
     <Tab.Group as="div" className="flex flex-col-reverse">
       <div className="mx-auto mt-6 w-full max-w-2xl sm:block lg:max-w-none">
         <Tab.List className="grid grid-cols-4 gap-6">
@@ -41,5 +34,5 @@ const Gallery: React.FC<GalleryProps> = ({
     </Tab.Group>
   );
 }
- 
+
 export default Gallery;

@@ -1,13 +1,6 @@
-import { Product } from "@/types";
 import NoResults from "@/components/ui/no-results";
-import ProductCard from "./ui/product-card";
-
-interface ProductListProps {
-  title: string;
-  items: Product[];
-  initialLength?: number;
-  finalLength?: number;
-}
+import ProductCard from "./ui/product-card"; 
+import { ProductListProps } from "@/types";
 
 const ProductList: React.FC<ProductListProps> = ({ title, items, initialLength, finalLength }) => {
   let displayedItems = items;
@@ -23,7 +16,7 @@ const ProductList: React.FC<ProductListProps> = ({ title, items, initialLength, 
       <h3 className="font-bold text-xl sm:text-3xl">{title}</h3>
       {displayedItems.length === 0 && <NoResults />}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {displayedItems.map((item) => (
+        {displayedItems.map((item: any) => (
           <ProductCard key={item.id} data={item} />
         ))}
       </div>

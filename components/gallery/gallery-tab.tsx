@@ -1,30 +1,23 @@
 import NextImage from "next/image";
 import { Tab } from "@headlessui/react";
-
 import { cn } from "@/lib/utils";
-import { Image } from "@/types";
-import camisa from "@/assets/camiseta-aeroready-designed-for-movement.png"
-
-
-interface GalleryTabProps {
-  image: Image;
-}
+import { GalleryTabProps } from "@/types";
 
 const GalleryTab: React.FC<GalleryTabProps> = ({
   image
 }) => {
-  return ( 
+  return (
     <Tab
       className="relative flex aspect-square cursor-pointer items-center justify-center rounded-md bg-white"
     >
       {({ selected }) => (
         <div>
           <span className="absolute h-full w-full aspect-square inset-0 overflow-hidden rounded-md">
-            <NextImage 
-              fill 
+            <NextImage
+              fill
               src={image.url}
-              alt="" 
-              className="object-cover object-center" 
+              alt="Imagem"
+              className="object-cover object-center"
             />
           </span>
           <span
@@ -38,5 +31,5 @@ const GalleryTab: React.FC<GalleryTabProps> = ({
     </Tab>
   );
 }
- 
+
 export default GalleryTab;

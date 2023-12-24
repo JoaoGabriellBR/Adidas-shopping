@@ -25,5 +25,5 @@ const Loading = () => {
     </Container>
   );
 }
- 
+
 export default Loading;

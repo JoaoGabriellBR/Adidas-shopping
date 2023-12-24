@@ -1,17 +1,8 @@
 import Image from "next/image";
-import { toast } from "react-hot-toast";
 import { X } from "lucide-react";
-
 import IconButton from "@/components/ui/icon-button";
-// import Currency from "@/components/ui/currency";
 import useCart from "@/hooks/use-cart";
-import { Product } from "@/types";
-import camisa from "@/assets/camiseta-aeroready-designed-for-movement.png"
-
-
-interface CartItemProps {
-  data: Product;
-}
+import { CartItemProps } from "@/types";
 
 const CartItem: React.FC<CartItemProps> = ({ data }) => {
   const cart = useCart();

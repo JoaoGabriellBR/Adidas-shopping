@@ -1,15 +1,9 @@
 "use client";
-
-import { Product } from "@/types";
-// import Currency from "./ui/currency";
 import Button from "./ui/button";
 import { ShoppingCart } from "lucide-react";
 import useCart from "@/hooks/use-cart";
 import { MouseEventHandler } from "react";
-
-interface InfoProps {
-  data: Product;
-}
+import { InfoProps } from "@/types";
 
 const Info: React.FC<InfoProps> = ({ data }) => {
   

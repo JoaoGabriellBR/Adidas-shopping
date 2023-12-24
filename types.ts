@@ -4,8 +4,12 @@ export interface Billboard {
   imageUrl: string;
 }
 
+export interface BillboardProps {
+  data: Billboard;
+}
+
 export interface Category {
-  id: string;
+  id: number;
   name: string;
   billboard: Billboard;
 }
@@ -21,17 +25,25 @@ export interface CategoryPageProps {
 }
 
 export interface Image {
-  id: string;
+  id: string | number;
   url: string;
 }
 
+export interface GalleryProps {
+  images: Image[];
+}
+
+export interface GalleryTabProps {
+  image: Image;
+}
+
 export interface Size {
-  id: string | number;
+  id: number;
   name: string;
 }
 
 export interface Color {
-  id: string;
+  id: number;
   name: string;
   value: string;
 }
@@ -47,6 +59,19 @@ export interface Product {
   images: Image[] | any;
 }
 
+export interface ProductListProps {
+  title: string;
+  items: Product[] | any;
+  initialLength?: number;
+  finalLength?: number;
+}
+
+export interface ProductPageProps {
+  params: {
+    productId: string;
+  };
+}
+
 export interface CartStore {
   items: Product[];
   addItem: (data: Product) => void;
@@ -60,4 +85,17 @@ export interface Query {
   sizeId?: string;
   description?: string;
   isFeatured?: boolean;
+}
+
+export interface InfoProps {
+  data: Product | any;
+}
+
+export interface CartItemProps {
+  data: Product;
+}
+
+export interface MobileFiltersProps {
+  sizes: Size[];
+  colors: Color[];
 }
