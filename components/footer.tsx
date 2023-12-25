@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Instagram, Facebook, Youtube, Twitter } from "lucide-react";
 
-const divIconStyles = "bg-white p-2 rounded-full text-2xl text-black hover:opacity-60";
+const divIconStyles = "bg-white p-2 rounded-full text-2xl text-black opacity-60 hover:opacity-100";
 const iconStyles = "w-4 h-4"
 
 const Links = [
@@ -19,10 +19,6 @@ const Links = [
   },
   {
     name: "Política de privacidade",
-    href: "",
-  },
-  {
-    name: "Suas escolhas de privacidade",
     href: "",
   },
 ];
