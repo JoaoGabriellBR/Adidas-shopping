@@ -14,7 +14,7 @@
         "name": "Training"
       }
     ],
-    "price": "99.99",
+    "price": 99.99,
     "description": "Desenvolvida com tecnologia AEROREADY para controle de umidade, para manter você confortável enquanto se movimenta ao longo do dia.",
     "color": {
       "id": 1,
@@ -42,7 +42,7 @@
         "name": "Sportswear"
       }
     ],
-    "price": "99.99",
+    "price": 99.99,
     "description": "Depois da academia, esta camiseta mantém você confortável pelo resto do dia. Ela é confeccionada em tecido leve para um toque macio. O estilo despojado de gola careca torna esta camiseta uma opção fácil para usar o dia todo.",
     "color": {
       "name": "Azul",
@@ -73,7 +73,7 @@
         "name": "Sportswear"
       }
     ],
-    "price": "99.99",
+    "price": 99.99,
     "description": "Nada como uma camiseta confiável que você pode vestir antes de sair de casa. Esta camiseta juvenil adidas é feita de malha simples de algodão macio para uma sensação leve e confortável. As Três Listras chapadas vão do pescoço às mangas, criando um look clássico.",
     "color": {
       "id": 3,
@@ -109,7 +109,7 @@
         "name": "Futebol"
       }
     ],
-    "price": "149.99",
+    "price": 149.99,
     "description": "Esqueça o segundo uniforme e deixe os jalecos nos vestiários. Esta camisa de futebol juvenil adidas reversível oferece dois looks em um. Assim que escolher um dos lados e coloca-lá no corpo, o tecido AEROREADY remove o suor para manter o conforto, e o logo das Três Barras aplicado por calor confirma que você vai dominar a partida desde o primeiro minuto.",
     "color": {
       "id": 6,
@@ -145,7 +145,7 @@
         "name": "Futebol"
       }
     ],
-    "price": "119.99",
+    "price": 119.99,
     "description": "Treinando como profissionais. Relaxando como campeões. Esta camisa de futebol infantil exibe um design clean e clássico com o Badge of Sport da adidas no peito. O tecido AEROREADY que remove a umidade mantém seu corpo seco e refrescado.",
     "color": {
       "id": 5,
@@ -181,7 +181,7 @@
         "name": "Futebol"
       }
     ],
-    "price": "249.99",
+    "price": 249.99,
     "description": "A versão torcedor da camisa do Cruzeiro comemora 200 anos da independência do Brasil. Esta camisa de futebol juvenil adidas vem com as cores amarelo e azul, uma homenagem aos fortes laços do clube com a seleção nacional.",
     "color": {
       "id": 4,
@@ -217,7 +217,7 @@
         "name": "Futebol"
       }
     ],
-    "price": "149.99",
+    "price": 149.99,
     "description": "Treinando como profissionais. Relaxando como campeões. Esta camisa de futebol infantil exibe um design clean e clássico com o Badge of Sport da adidas no peito. O tecido AEROREADY que remove a umidade mantém seu corpo seco e refrescado.",
     "color": {
       "id": 6,
@@ -257,7 +257,7 @@
         "name": "Futebol"
       }
     ],
-    "price": "299.99",
+    "price": 299.99,
     "description": "Inspirada em um ídolo do Clube chega a nova camisa do uniforme 3 do Tricolor. Vista-a para sentir o conforto do tecido macio e suave, além do AEROREADY que remove o suor. Feito 100% de materiais reciclados, este produto representa apenas uma das nossas soluções para ajudar a acabar com os resíduos plásticos.",
     "color": {
       "id": 6,
@@ -293,7 +293,7 @@
         "name": "Sportswear"
       }
     ],
-    "price": "79.99",
+    "price": 79.99,
     "description": "Um ícone adidas. Esta camiseta é feita de algodão e tem modelagem justa que envolve o corpo. Combine esta camiseta juvenil adidas com calça de moletom de pernas largas e tênis para um look casual moderno.",
     "color": {
       "id": 7,
@@ -321,7 +321,7 @@
         "name": "Originals"
       }
     ],
-    "price": "119.99",
+    "price": 119.99,
     "description": "Celebra a marca que deu início a tudo. Esta regata clássica deixa seu orgulho adidas brilhar. O logo Trefoil em destaque conecta você a décadas de atletas e mentes criativas, um legado que começou nas pistas e nas quadras, mas que agora se espalhou pelo mundo. O tecido misto de algodão mantém a vibe autêntica e o conforto verdadeiro. Vista com uma calça jogger nos momentos de descanso, ou estilize com um blazer para sair à noite.",
     "color": {
       "id": 2,
@@ -361,7 +361,7 @@
         "name": "Futebol"
       }
     ],
-    "price": "349.99",
+    "price": 349.99,
     "description": "Clean e clássica. Esta regata adidas do segundo uniforme do CR Flamengo foi criada para manter os torcedores confortáveis enquanto torcem pelo time. Por trás do design atemporal, o tecido AEROREADY que remove o suor garante a autoconfiança, não importa o que aconteça no campo de futebol. O escudo premium bordado deixa claro para quem vai a sua torcida.",
     "color": {
       "id": 2,
@@ -401,7 +401,7 @@
         "name": "Originals"
       }
     ],
-    "price": "699.99",
+    "price": 699.99,
     "description": "O Boucle Tt é novo para essas características de filtro em nosso website, na categoria Homem. Mas você já pode visualizar as imagens acima e ter mais detalhes, para conhecer o produto de diferentes ângulos em primeira mão.",
     "color": {
       "id": 2,
@@ -441,7 +441,7 @@
         "name": "Originals"
       }
     ],
-    "price": "279.99",
+    "price": 279.99,
     "description": "Você tem muito respeito pelo passado. Mas, definitivamente, suas raízes estão no futuro. Combine os dois ao vestir esta jaqueta juvenil. Aposte no visual autêntico adidas com as icônicas Três Listras e um toque de friso. O brilho característico da malha completa o estilo original.",
     "color": {
       "id": 1,
@@ -481,7 +481,7 @@
         "name": "Originals"
       }
     ],
-    "price": "179.99",
+    "price": 179.99,
     "description": "O Crew é novo para essas características de filtro em nosso website, na categoria Kids. Mas você já pode visualizar as imagens acima e ter mais detalhes, para conhecer o produto de diferentes ângulos em primeira mão.",
     "color": {
       "id": 6,
@@ -509,7 +509,7 @@
         "name": "Sportswear"
       }
     ],
-    "price": "129.99",
+    "price": 129.99,
     "description": "Procurando um look moderno e casual para usar todos os dias? Esta camiseta justa se encaixa perfeitamente no seu pedido. Linhas limpas e estilo adidas suave misturam-se nesta camiseta comfy, que combina facilmente com joggers, jeans ou leggings.",
     "color": {
       "id": 1,
@@ -537,7 +537,7 @@
         "name": "Sportswear"
       }
     ],
-    "price": "179.99",
+    "price": 179.99,
     "description": "Você pega firme no treino e se concentra ainda mais nas jogadas. Deixe transparecer a mesma intensidade nas suas horas de folga com esta camiseta adidas. A maciez do tecido de algodão proporciona um caimento descontraído e drapeado de conforto, facilitando os movimentos. Exceto se estiver só de boa. O descanso e o relaxamento também são partes importantes do processo.",
     "color": {
       "id": 5,
@@ -569,7 +569,7 @@
         "name": "Sportswear"
       }
     ],
-    "price": "399.99",
+    "price": 399.99,
     "description": "Antes de sair, vista esta blusa de moletom com capuz de fleece e garanta máximo conforto. Aberta ou com o zíper levantado, o estilo atemporal adidas combina com tudo, típico de um clássico para usar o dia todo. Os punhos e a barra canelados mantêm o ajuste no lugar, e o frio do lado de fora.",
     "color": {
       "id": 1,
@@ -609,7 +609,7 @@
         "name": "Originals"
       }
     ],
-    "price": "399.99",
+    "price": 399.99,
     "description": "Ícone das quadras de basquete desde seu lançamento em 1969, o adidas Superstar chegou às ruas e se transformou em um ícone da moda urbana, conquistando multidões. Seguindo no auge, o inconfundível tênis da biqueira shell toe surge reinventado, com novo design slip-on. Faixas elásticas cruzadas no lugar dos cadarços oferecem ajuste confortável e ultrafeminino. O cupsole de borracha serve de base para o cabedal em borracha sintética expandida com detalhes em couro.",
     "color": {
       "id": 1,
@@ -649,7 +649,7 @@
         "name": "Originals"
       }
     ],
-    "price": "799.99",
+    "price": 799.99,
     "description": "Mais que apenas um tênis, ele é uma declaração. O adidas Forum entrou em cena em 84 e arrebatou todo o amor das quadras e do show biz. Este tênis clássico traz de volta a atitude dos anos 80, a energia explosiva do basquete e o icônico design de tira em X no tornozelo, destilados em uma versão de cano baixo para as ruas.",
     "color": {
       "id": 2,
@@ -689,7 +689,7 @@
         "name": "Originals"
       }
     ],
-    "price": "599.99",
+    "price": 599.99,
     "description": "Este tênis adidas Sambae dá um toque moderno a um design icônico. Antes uma chuteira de futsal, esta versão é feita com cabedal de couro macio, solado de borracha natural translúcido e as Três Listras bordadas com qualidade superior, permitindo que o look se adapte facilmente às ruas. Detalhes sutis, como o acabamento de costura na biqueira, criam um estilo marcante.",
     "color": {
       "id": 1,
@@ -729,7 +729,7 @@
         "name": "Originals"
       }
     ],
-    "price": "699.99",
+    "price": 699.99,
     "description": "Não existiria uma lista dos tênis mais icônicos da adidas sem o Gazelle. Usado pela primeira vez nas quadras na década de 70, o tênis de suede está ganhando novos fãs até hoje. Agora, o estilo que você tanto quer é levado a um novo patamar. Com três camadas de altura, para uma nova perspectiva sobre o estilo clássico. Os detalhes mantêm o estilo esportivo com suede macio e as Três Listras serrilhadas.",
     "color": {
       "id": 7,
@@ -769,7 +769,7 @@
         "name": "Running"
       }
     ],
-    "price": "399.99",
+    "price": 399.99,
     "description": "Prepare-se para uma corrida no parque ou uma caminhada até a cafeteria com este versátil tênis de corrida adidas. A entressola Cloudfoam proporciona amortecimento e conforto desde o primeiro passo. O cabedal em tecido é confortável e respirável e o solado de borracha oferece aderência suficiente para uma caminhada confiante.",
     "color": {
       "id": 1,

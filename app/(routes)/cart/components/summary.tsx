@@ -40,6 +40,24 @@ const Summary = () => {
     window.location = response.data.url;
   };
 
+
+  const checkout = async () => {
+    await fetch("http://localhost:3000/api/checkout", {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json"
+      },
+      body: JSON.stringify({ products: items })
+    }).then((response) => {
+      return response.json();
+    }).then((response) => {
+      console.log(response)
+      if (response.url) {
+        // console.log(response.url)
+      }
+    })
+  }
+
   return (
     <div className="mt-16 rounded-lg bg-gray-50 px-4 py-6 sm:p-6 lg:col-span-5 lg:mt-0 lg:p-8">
       <h2 className="text-lg font-medium text-gray-900">Resumo do pedido</h2>
@@ -50,7 +68,8 @@ const Summary = () => {
         </div>
       </div>
       <Button
-        onClick={onCheckout}
+        // onClick={onCheckout}
+        onClick={checkout}
         disabled={!items.length}
         className="w-full mt-6"
       >

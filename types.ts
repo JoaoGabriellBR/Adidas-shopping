@@ -62,7 +62,7 @@ export interface Product {
   category: Category;
   description: string,
   name: string;
-  price: string;
+  price: number;
   size: Size;
   color: Color;
   images: Image[] | any;
