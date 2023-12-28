@@ -1,28 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
+import { useState } from "react";
 import Button from "@/components/ui/button";
 import useCart from "@/hooks/use-cart";
-import { toast } from "react-hot-toast";
 import { Loader2 } from "lucide-react";
 
 const Summary = () => {
-  const searchParams = useSearchParams();
   const [loading, setLoading] = useState(false);
   const items = useCart((state) => state.items);
-  const removeAll = useCart((state) => state.removeAll);
-
-  // useEffect(() => {
-  //   if (searchParams.get("success")) {
-  //     toast.success("Pagamento completado.");
-  //     removeAll();
-  //   }
-
-  //   if (searchParams.get("canceled")) {
-  //     toast.error("Algo deu errado!");
-  //   }
-  // }, [searchParams, removeAll]);
 
   const totalPrice = items.reduce((total, item) => {
     return total + Number(item.price);
