@@ -66,6 +66,7 @@ export interface Product {
   size: Size;
   color: Color;
   images: Image[] | any;
+  quantity?: number;
 }
 
 export interface ProductCardProps {

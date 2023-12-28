@@ -14,9 +14,7 @@ export async function POST(request: any) {
 
     let activeProducts = await getActiveProducts();
 
-
     try {
-
         for (const product of data) {
             const stripeProducts = activeProducts.find(
                 (stripeProduct: any) =>
@@ -42,6 +40,28 @@ export async function POST(request: any) {
     }
 
 
-    return NextResponse.json({ url: "/" })
+    activeProducts = await getActiveProducts();
+    let stripeItems: any = [];
 
+    for (const product of data) {
+        const stripeProducts = activeProducts.find(
+            (prod: any) => prod?.name?.toLowerCase() == product?.name?.toLowerCase()
+        )
+
+        if (stripeProducts) {
+            stripeItems.push({
+                price: stripeProducts?.default_price,
+                quantity: product?.quantity || 1
+            })
+        }
+    }
+
+    const session = await stripe.checkout.sessions.create({
+        line_items: stripeItems,
+        mode: "payment",
+        success_url: "http://localhost:3000/success",
+        cancel_url: "http://localhost:3000/cancel",
+    })
+
+    return NextResponse.json({ url: session.url })
 }

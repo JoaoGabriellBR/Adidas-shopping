@@ -40,7 +40,6 @@ const Summary = () => {
     window.location = response.data.url;
   };
 
-
   const checkout = async () => {
     await fetch("http://localhost:3000/api/checkout", {
       method: "POST",
@@ -53,7 +52,7 @@ const Summary = () => {
     }).then((response) => {
       console.log(response)
       if (response.url) {
-        // console.log(response.url)
+        window.location.href = response.url;
       }
     })
   }
