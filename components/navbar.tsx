@@ -1,25 +1,21 @@
-import Container from "@/components/ui/container";
 import Link from "next/link";
-import MainNav from "@/components/main-nav";
-import NavbarActions from "@/components/navbar-actions";
-import Image from "next/image";
-import logo from "@/public/images/adidas-logo.png";
-import categories from "@/categories.json";
+import { cn } from "@/lib/utils";
 
-const Navbar = async () => {
+export default function Navbar({ routes }: any) {
   return (
-    <div className="border-b">
-      <Container>
-        <div className="relative px-2 sm:px-6 lg:px-8 flex h-16 items-center">
-          <Link aria-label="Adidas home page" href="/">
-            <Image src={logo} alt="Logo adidas" width={80} height={80} />
-          </Link>
-          <MainNav data={categories} />
-          <NavbarActions />
-        </div>
-      </Container>
+    <div className="flex flex-row gap-4">
+      {routes.map((route: any) => (
+        <Link
+          key={route.label}
+          href={route.href}
+          className={cn(
+            "text-sm font-medium inline-block text-center transition-colors hover:text-black",
+            route.active ? "text-black" : "text-neutral-500",
+          )}
+        >
+          {route.label}
+        </Link>
+      ))}
     </div>
-  );
-};
-
-export default Navbar;
+  )
+}

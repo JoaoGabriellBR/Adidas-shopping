@@ -6,7 +6,7 @@ import { ShoppingBag } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-const NavbarActions = () => {
+const CartIcon = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -31,4 +31,4 @@ const NavbarActions = () => {
   );
 };
 
-export default NavbarActions;
+export default CartIcon;

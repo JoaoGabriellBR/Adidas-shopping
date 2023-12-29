@@ -116,6 +116,7 @@ export interface MobileFiltersProps {
 
 export interface MainNavProps {
   data: Category[];
+  mobile?: boolean;
 }
 
 export interface PreviewModalStore {
