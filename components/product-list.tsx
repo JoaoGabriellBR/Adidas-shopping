@@ -1,6 +1,6 @@
 import NoResults from "@/components/ui/no-results";
 import ProductCard from "./ui/product-card"; 
-import { ProductListProps } from "@/types";
+import { ProductListProps } from "@/utils/types";
 
 const ProductList: React.FC<ProductListProps> = ({ title, items, initialLength, finalLength }) => {
   let displayedItems = items;

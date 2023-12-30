@@ -1,6 +1,6 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/cn";
 import { forwardRef } from "react";
-import { ButtonProps } from "@/types";
+import { ButtonProps } from "@/utils/types";
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, children, disabled, type = "button", ...props }, ref) => {

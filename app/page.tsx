@@ -3,7 +3,7 @@ import Container from "@/components/ui/container";
 import Image from "next/image";
 import Button from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import products from "@/products.json";
+import products from "@/utils/products.json";
 import Link from "next/link";
 
 export const revalidate = 0;

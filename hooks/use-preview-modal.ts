@@ -1,6 +1,6 @@
 import { create } from "zustand";
-import { Product } from "@/types";
-import { PreviewModalStore } from "@/types";
+import { Product } from "@/utils/types";
+import { PreviewModalStore } from "@/utils/types";
 
 const usePreviewModal = create<PreviewModalStore>((set) => ({
   isOpen: false,

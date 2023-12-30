@@ -8,7 +8,7 @@ import Filter from "./components/filter";
 import NoResults from "@/components/ui/no-results";
 import ProductCard from "@/components/ui/product-card";
 import MobileFilters from "./components/mobile-filters";
-import { CategoryPageProps } from "@/types";
+import { CategoryPageProps } from "@/utils/types";
 
 export const revalidate = 0;
 

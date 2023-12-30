@@ -1,5 +1,5 @@
-import { Size } from "@/types";
-import sizes from "@/sizes.json";
+import { Size } from "@/utils/types";
+import sizes from "@/utils/sizes.json"
 
 const getSizes = async (): Promise<Size[]> => {
   return sizes;

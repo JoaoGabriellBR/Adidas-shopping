@@ -6,7 +6,7 @@ import { Dialog } from "@headlessui/react";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/cn";
 
 const NavbarMobile = ({ routes }: any) => {
   const [open, setOpen] = useState(false);

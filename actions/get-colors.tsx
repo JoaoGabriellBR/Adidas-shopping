@@ -1,5 +1,5 @@
-import { Color } from "@/types";
-import colors from "@/colors.json";
+import { Color } from "@/utils/types";
+import colors from "@/utils/colors.json";
 
 const getColors = async (): Promise<Color[]> => {
   return colors;

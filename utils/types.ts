@@ -1,5 +1,17 @@
 export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> { }
+
+export interface IconButtonProps {
+  onClick?: React.MouseEventHandler<HTMLButtonElement> | undefined;
+  icon: React.ReactElement;
+  className?: string;
+}
+
+export interface ModalProps {
+  open: boolean;
+  onClose: () => void;
+  children: React.ReactNode;
+}
 
 export interface Billboard {
   id: number;

@@ -3,10 +3,10 @@ import Gallery from "@/components/gallery";
 import Info from "@/components/info";
 import ProductList from "@/components/product-list";
 import Container from "@/components/ui/container";
-import products from "@/products.json";
+import products from "@/utils/products.json";
 import { useRouter } from "next/navigation";
 import { ChevronLeft } from "lucide-react";
-import { ProductPageProps } from "@/types";
+import { ProductPageProps } from "@/utils/types";
 
 export const revalidate = 0;
 

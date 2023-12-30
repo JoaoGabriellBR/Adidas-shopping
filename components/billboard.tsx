@@ -1,4 +1,4 @@
-import { BillboardProps } from "@/types";
+import { BillboardProps } from "@/utils/types";
 import Image from "next/image";
 
 export const Billboard: React.FC<BillboardProps> = ({ data }) => {

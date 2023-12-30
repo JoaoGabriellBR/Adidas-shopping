@@ -19,6 +19,7 @@ const CartIcon = () => {
   if (!isMounted) {
     return null;
   }
+  
   return (
     <div className="ml-auto gap-x-4 items-center flex">
       <Button onClick={() => router.push("/cart")} className="flex items-center rounded-full bg-black px-4 py-2">

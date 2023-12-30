@@ -1,5 +1,5 @@
-import { Category } from "@/types";
-import categories from "@/categories.json";
+import { Category } from "@/utils/types";
+import categories from "@/utils/categories.json";
 
 const getCategory = async (id: string): Promise<Category | any> => {
   const categoryId = Number(id);

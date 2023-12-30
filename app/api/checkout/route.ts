@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import stripe from "@/lib/stripe";
-import { Product } from "@/types";
+import { Product } from "@/utils/types";
 
 const getActiveProducts = async () => {
     const checkProducts = await stripe.products.list();

@@ -6,7 +6,7 @@ import { Dialog } from "@headlessui/react";
 import { Plus, X } from "lucide-react";
 import { useState } from "react";
 import Filter from "./filter";
-import { MobileFiltersProps } from "@/types";
+import { MobileFiltersProps } from "@/utils/types";
 
 const MobileFilters: React.FC<MobileFiltersProps> = ({ sizes, colors }) => {
   const [open, setOpen] = useState(false);

@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { toast } from "react-hot-toast";
 import { persist, createJSONStorage } from "zustand/middleware";
-import { CartStore, Product } from "@/types";
+import { CartStore, Product } from "@/utils/types";
 
 const useCart = create(
   persist<CartStore>(

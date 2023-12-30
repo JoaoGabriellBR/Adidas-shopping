@@ -3,8 +3,8 @@
 import qs from "query-string";
 import { useRouter, useSearchParams } from "next/navigation";
 import Button from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import { FilterProps } from "@/types";
+import { cn } from "@/lib/cn";
+import { FilterProps } from "@/utils/types";
 
 const Filter: React.FC<FilterProps> = ({ data, name, valueKey }) => {
   const searchParams = useSearchParams();

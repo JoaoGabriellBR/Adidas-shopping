@@ -3,7 +3,7 @@ import Button from "./ui/button";
 import { ShoppingCart } from "lucide-react";
 import useCart from "@/hooks/use-cart";
 import { MouseEventHandler } from "react";
-import { InfoProps } from "@/types";
+import { InfoProps } from "@/utils/types";
 
 const Info: React.FC<InfoProps> = ({ data }) => {
   

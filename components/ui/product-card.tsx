@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import IconButton from "@/components/ui/icon-button";
 import usePreviewModal from "@/hooks/use-preview-modal";
 import useCart from "@/hooks/use-cart";
-import { ProductCardProps } from "@/types";
+import { ProductCardProps } from "@/utils/types";
 
 const ProductCard: React.FC<ProductCardProps | any> = ({ data }) => {
   const previewModal = usePreviewModal();
