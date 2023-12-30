@@ -704,46 +704,6 @@
     "type": "sneakers"
   },
   {
-    "id": 20,
-    "images": [
-      {
-        "id": 1,
-        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/92ffc42c863b4d3b85a04a517d00e765_9366/Tenis_Gazelle_Bold_Rosa_IE0420_01_standard.jpg"
-      },
-      {
-        "id": 2,
-        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/582e8e2ce48a495b841b1fbc13ee67b7_9366/Tenis_Gazelle_Bold_Rosa_IE0420_02_standard_hover.jpg"
-      },
-      {
-        "id": 3,
-        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c1f0d816cb5e486ca6b91746ba67d62c_9366/Tenis_Gazelle_Bold_Rosa_IE0420_03_standard.jpg"
-      },
-      {
-        "id": 4,
-        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d160f5a8b3d49b4aa967849726e5d06_9366/Tenis_Gazelle_Bold_Rosa_IE0420_04_standard.jpg"
-      }
-    ],
-    "name": "TÊNIS GAZELLE BOLD",
-    "category": [
-      {
-        "id": 4,
-        "name": "Originals"
-      }
-    ],
-    "price": 699.99,
-    "description": "Não existiria uma lista dos tênis mais icônicos da adidas sem o Gazelle. Usado pela primeira vez nas quadras na década de 70, o tênis de suede está ganhando novos fãs até hoje. Agora, o estilo que você tanto quer é levado a um novo patamar. Com três camadas de altura, para uma nova perspectiva sobre o estilo clássico. Os detalhes mantêm o estilo esportivo com suede macio e as Três Listras serrilhadas.",
-    "color": {
-      "id": 7,
-      "name": "Rosa",
-      "value": "#9985a0"
-    },
-    "size": {
-      "id": 5,
-      "name": "33-45"
-    },
-    "type": "sneakers"
-  },
-  {
     "id": 21,
     "images": [
       {
@@ -1040,6 +1000,46 @@
     "size": {
       "id": 4,
       "name": "34-39"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 29,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/92ffc42c863b4d3b85a04a517d00e765_9366/Tenis_Gazelle_Bold_Rosa_IE0420_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/582e8e2ce48a495b841b1fbc13ee67b7_9366/Tenis_Gazelle_Bold_Rosa_IE0420_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c1f0d816cb5e486ca6b91746ba67d62c_9366/Tenis_Gazelle_Bold_Rosa_IE0420_03_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d160f5a8b3d49b4aa967849726e5d06_9366/Tenis_Gazelle_Bold_Rosa_IE0420_04_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS GAZELLE BOLD",
+    "category": [
+      {
+        "id": 4,
+        "name": "Originals"
+      }
+    ],
+    "price": 699.99,
+    "description": "Não existiria uma lista dos tênis mais icônicos da adidas sem o Gazelle. Usado pela primeira vez nas quadras na década de 70, o tênis de suede está ganhando novos fãs até hoje. Agora, o estilo que você tanto quer é levado a um novo patamar. Com três camadas de altura, para uma nova perspectiva sobre o estilo clássico. Os detalhes mantêm o estilo esportivo com suede macio e as Três Listras serrilhadas.",
+    "color": {
+      "id": 7,
+      "name": "Rosa",
+      "value": "#9985a0"
+    },
+    "size": {
+      "id": 5,
+      "name": "33-45"
     },
     "type": "sneakers"
   }
