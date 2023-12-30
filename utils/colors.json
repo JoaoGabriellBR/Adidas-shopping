@@ -11,7 +11,7 @@
   },
   {
     "id": 3,
-    "name": "Vermelho Escarlate",
+    "name": "Vermelho escarlate",
     "value": "#FF2400"
   },
   {
@@ -53,6 +53,10 @@
     "id": 11,
     "name": "Laranja",
     "value": "#ffa500"
+  },
+  {
+    "id": 12,
+    "name": "Vermelho",
+    "value": "#FF0"
   }
-
 ]
