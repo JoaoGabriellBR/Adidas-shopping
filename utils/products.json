@@ -45,6 +45,7 @@
     "price": 99.99,
     "description": "Depois da academia, esta camiseta mantém você confortável pelo resto do dia. Ela é confeccionada em tecido leve para um toque macio. O estilo despojado de gola careca torna esta camiseta uma opção fácil para usar o dia todo.",
     "color": {
+      "id": 10,
       "name": "Azul",
       "value": "#2D364C"
     },
@@ -779,6 +780,266 @@
     "size": {
       "id": 5,
       "name": "33-45"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 22,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a45e6248a34a40b1abdea7c074e9c045_9366/Tenis_Ultraboost_Light_23_Preto_GZ5159_HM1.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0d8a313277d04b2e8d55fa7b5710ff0c_9366/Tenis_Ultraboost_Light_23_Preto_GZ5159_HM3_hover.jpg"
+      }
+    ],
+    "name": "TÊNIS ULTRABOOST LIGHT 23",
+    "category": [
+      {
+        "id": 5,
+        "name": "Running"
+      }
+    ],
+    "price": 999.99,
+    "description": "Experimente a energia épica do novo Ultraboost Light, nosso Ultraboost mais leve de todos. A mágica está na entressola Light BOOST, uma nova geração do adidas BOOST. O seu design molecular único foi feito para a espuma BOOST mais leve já feita. Centenas de cápsulas BOOST com energia, amortecimento e conforto de sobra, para que os pés possam ter o máximo disso tudo.",
+    "color": {
+      "id": 1,
+      "name": "Preto",
+      "value": "#000"
+    },
+    "size": {
+      "id": 4,
+      "name": "34-39"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 23,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/20a946761a254800b58e92dfce6bf733_9366/Tenis_Ultraboost_Light_23_Preto_GY9351_HM1.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/603054f90779462f92ccbc56321755e9_9366/Tenis_Ultraboost_Light_23_Preto_GY9351_HM3_hover.jpg"
+      }
+    ],
+    "name": "TÊNIS ULTRABOOST LIGHT 23 PRETO/BRANCO",
+    "category": [
+      {
+        "id": 5,
+        "name": "Running"
+      }
+    ],
+    "price": 999.99,
+    "description": "Experimente a energia épica do novo Ultraboost Light, nosso Ultraboost mais leve de todos. A mágica está na entressola Light BOOST, uma nova geração do adidas BOOST. O seu design molecular único foi feito para a espuma BOOST mais leve já feita. Centenas de cápsulas BOOST com energia, amortecimento e conforto de sobra, para que os pés possam ter o máximo disso tudo.",
+    "color": {
+      "id": 1,
+      "name": "Preto",
+      "value": "#000"
+    },
+    "size": {
+      "id": 4,
+      "name": "34-39"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 24,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/34c508936f6441e0a59bca171caf4e65_9366/Tenis_Ultraboost_1.0_Borgonha_ID9676_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bb8487dd0b1c45809a3ee8aec1f89b6c_9366/Tenis_Ultraboost_1.0_Borgonha_ID9676_010_hover_standard.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd83c2ca286f4721b7d0520c6b56f0bb_9366/Tenis_Ultraboost_1.0_Borgonha_ID9676_02_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS ULTRABOOST 1.0",
+    "category": [
+      {
+        "id": 5,
+        "name": "Running"
+      }
+    ],
+    "price": 1299.99,
+    "description": "O efeito manchado confere a este tênis Ultraboost um visual desgastado que é tendência. O cabedal adidas PRIMEKNIT promete um ajuste firme e seguro, enquanto o Torsion System suporta a transição do calcanhar para a ponta do pé enquanto você caminha. Para conforto imbatível e retorno de energia, você pode contar com o amortecimento adidas BOOST.",
+    "color": {
+      "id": 9,
+      "name": "Marrom escuro",
+      "value": "#4f2b30"
+    },
+    "size": {
+      "id": 7,
+      "name": "36-40"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 25,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/db5f4068e173426884a54a63a68e4080_9366/Tenis_Tensaur_Hook_and_Loop_Azul_IE0922_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/643f680c1c0e4487b7e018db25f85883_9366/Tenis_Tensaur_Hook_and_Loop_Azul_IE0922_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2cd117ed469443eb88f5e84b54ad75fb_9366/Tenis_Tensaur_Hook_and_Loop_Azul_IE0922_04_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6a0128ecbeb94a2f968dc2b9c298ff65_9366/Tenis_Tensaur_Hook_and_Loop_Azul_IE0922_06_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS TENSAUR HOOK AND LOOP",
+    "category": [
+      {
+        "id": 2,
+        "name": "Sportswear"
+      }
+    ],
+    "price": 299.99,
+    "description": "Girando, pisando, pulando ou correndo, as crianças estão constantemente testando seus tênis. Feito com um solado de borracha resistente que não deixa marcas, este tênis adidas adere ao solo, deixando o chão exatamente como ele o encontrou. E as duas tiras aderentes em cada tênis são fáceis de prender quando estão em movimento.",
+    "color": {
+      "id": 10,
+      "name": "Azul",
+      "value": "#2f4560"
+    },
+    "size": {
+      "id": 7,
+      "name": "36-40"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 26,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/27550a8b14604188a1938df258170787_9366/Tenis_Everyset_Trainer_Rosa_HP3264_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e742a0a820fc4ac7b7882ec9361bdef6_9366/Tenis_Everyset_Trainer_Rosa_HP3264_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ccaae9e512e74a02bd748afbb4705bc6_9366/Tenis_Everyset_Trainer_Rosa_HP3264_04_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dbb39e8b8aa64947b08ef5ae4dc4e489_9366/Tenis_Everyset_Trainer_Rosa_HP3264_05_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS EVERYSET TRAINER",
+    "category": [
+      {
+        "id": 1,
+        "name": "Training"
+      }
+    ],
+    "price": 329.99,
+    "description": "Se você está pronto para começar sua jornada fitness, este tênis adidas está com você. Ele tem o visual e a estabilidade para manter você confiante no treino, seja indoor ou outdoor. O cabedal de malha é macio e respirável, proporcionando uma sensação aconchegante. A entressola de dupla densidade, com EVA mais firme do lado de fora e mais macio do lado de dentro, adiciona equilíbrio constante sem sacrificar o conforto.",
+    "color": {
+      "id": 7,
+      "name": "Rosa",
+      "value": "#e14d7a"
+    },
+    "size": {
+      "id": 5,
+      "name": "33-45"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 27,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/03c4c944dec04fa89c4c028c0d50867b_9366/Tenis_Dropset_2_Branco_ID4957_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1e6bf55cba824ef7980350c080fbe75d_9366/Tenis_Dropset_2_Branco_ID4957_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fcaa24df7f8741118e824d8c75237946_9366/Tenis_Dropset_2_Branco_ID4957_04_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/14d7434fe1bd4fd6923598ce8a5b7cc8_9366/Tenis_Dropset_2_Branco_ID4957_06_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS DROPSET 2",
+    "category": [
+      {
+        "id": 1,
+        "name": "Training"
+      }
+    ],
+    "price": 899.99,
+    "description": "A sensação dos halteres nas mãos e a certeza de ter dado o seu melhor. Nada como um bom dia de levantamento, e este tênis de treino adidas oferece um desempenho excelente durante as suas sessões de treino de força. O drop de 6 mm na entressola fornece uma plataforma plana e estável, ajudando a encontrar o alinhamento certo em todos os seus levantamentos.",
+    "color": {
+      "id": 6,
+      "name": "Cinza",
+      "value": "#e8e8e9"
+    },
+    "size": {
+      "id": 6,
+      "name": "36-39"
+    },
+    "type": "sneakers"
+  },
+  {
+    "id": 28,
+    "images": [
+      {
+        "id": 1,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/180f93525ba74e61b7c4aed7014f7a45_9366/Tenis_Supernova_2.0_Laranja_GY1772_01_standard.jpg"
+      },
+      {
+        "id": 2,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dbe62f7f9f8843a19f87aed7014f8bf2_9366/Tenis_Supernova_2.0_Laranja_GY1772_02_standard_hover.jpg"
+      },
+      {
+        "id": 3,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/867e4a9b2c504acc804baed7014f9a9b_9366/Tenis_Supernova_2.0_Laranja_GY1772_04_standard.jpg"
+      },
+      {
+        "id": 4,
+        "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cee5f87909b242ba90a5aed7014fa348_9366/Tenis_Supernova_2.0_Laranja_GY1772_05_standard.jpg"
+      }
+    ],
+    "name": "TÊNIS SUPERNOVA 2.0",
+    "category": [
+      {
+        "id": 5,
+        "name": "Running"
+      }
+    ],
+    "price": 499.99,
+    "description": "Seja começando no esporte ou treinando para os seus primeiros 10K, este tênis de corrida adidas acompanha você aonde for. O Boost responsivo na entressola fornece suporte para a aterrissagem e energiza cada passo, e o amortecimento elástico na ponta do pé impulsiona você adiante.",
+    "color": {
+      "id": 11,
+      "name": "Laranja",
+      "value": "#e54b2b"
+    },
+    "size": {
+      "id": 4,
+      "name": "34-39"
     },
     "type": "sneakers"
   }

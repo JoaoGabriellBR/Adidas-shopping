@@ -38,5 +38,21 @@
     "id": 8,
     "name": "Marrom",
     "value": "#7f5937"
+  },
+  {
+    "id": 9,
+    "name": "Marrom escuro",
+    "value": "#4f2b30"
+  },
+  {
+    "id": 10,
+    "name": "Azul",
+    "value": "#0000ff"
+  },
+  {
+    "id": 11,
+    "name": "Laranja",
+    "value": "#ffa500"
   }
+
 ]
