@@ -9,6 +9,7 @@ import Navbar from "./navbar";
 import NavbarMobile from "./navbar-mobile";
 import categories from "@/utils/categories.json"
 import { useMediaQuery } from "react-responsive";
+import SearchInput from "./ui/search";
 
 export default function Header() {
 
@@ -28,7 +29,6 @@ export default function Header() {
                     <Link aria-label="Adidas home page" href="/">
                         <Image src={logo} alt="Logo adidas" width={80} height={80} />
                     </Link>
-
                     {isMobile ? (
                         <div className="flex items-center justify-end w-full">
                             <div className="gap-3 flex items-center">
@@ -39,11 +39,13 @@ export default function Header() {
                     ) : (
                         <div className="w-full flex items-center justify-between">
                             <Navbar routes={routes} />
-                            <CartIcon />
+                            <div className="flex flex-row items-center gap-4">
+                                <SearchInput />
+                                <CartIcon />
+                            </div>
                         </div>
                     )}
                 </div>
-
             </Container>
         </div>
     );
