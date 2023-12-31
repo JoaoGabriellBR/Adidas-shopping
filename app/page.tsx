@@ -8,39 +8,17 @@ import { ArrowRight } from "lucide-react";
 import products from "@/utils/products.json";
 import Link from "next/link";
 import Header from "@/components/header";
-import { useState } from "react";
-import { Product } from "@/utils/types";
 import ProductCard from "@/components/ui/product-card";
+import { useSearch } from "@/context/search-context";
 
 export const revalidate = 0;
 
 const HomePage = () => {
 
-  const [searchQuery, setSearchQuery] = useState('');
-  const [searchResults, setSearchResults] = useState<Product[] | any>([]);
-
-  const handleSearch = (query: string) => {
-    setSearchQuery(query);
-
-    if (!query.trim()) {
-      setSearchResults([]);
-      return;
-    }
-
-    const searchWords = query.toLowerCase().split(/\s+/);
-
-    const filteredProducts = products.filter((product) =>
-      searchWords.every((word) =>
-        product.name.toLowerCase().includes(word)
-      )
-    );
-
-    setSearchResults(filteredProducts);
-  };
+  const { searchQuery, searchResults } = useSearch();
 
   return (
     <>
-      <Header searchQuery={searchQuery} handleSearch={handleSearch} />
       <Container>
         {searchQuery && searchResults !== 0 ? (
           <div className="my-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -94,7 +72,6 @@ const HomePage = () => {
             </div>
           </div>
         )}
-
       </Container>
     </>
   );

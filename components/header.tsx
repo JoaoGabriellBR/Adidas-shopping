@@ -10,11 +10,13 @@ import NavbarMobile from "./navbar-mobile";
 import categories from "@/utils/categories.json"
 import { useMediaQuery } from "react-responsive";
 import SearchInput from "./ui/search";
+import { useSearch } from "@/context/search-context";
 
-export default function Header({ searchQuery, handleSearch }: any) {
+export default function Header() {
 
     const pathName = usePathname();
     const isMobile = useMediaQuery({ maxWidth: "1000px" });
+    const { searchQuery, handleSearch } = useSearch();
 
     const routes = categories.map((route: any) => ({
         href: `/category/${route.id}`,

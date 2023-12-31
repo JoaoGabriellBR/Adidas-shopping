@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import ModalProvider from "@/providers/modal-provider";
 import ToastProvider from "@/providers/toast-provider";
+import { SearchProvider } from "@/context/search-context";
+import Header from "@/components/header";
 
 const BRFrima = localFont({
   src: [
@@ -69,7 +71,10 @@ export default function RootLayout({
       <body className={BRFrima.className}>
         <ModalProvider />
         <ToastProvider />
-        {children}
+        <SearchProvider>
+          <Header />
+          {children}
+        </SearchProvider>
         <Footer />
       </body>
     </html>
