@@ -21,9 +21,20 @@ const HomePage = () => {
 
   const handleSearch = (query: string) => {
     setSearchQuery(query);
-    const filteredProducts = products.filter(
-      (product) => product.name.toLowerCase().includes(query.toLowerCase())
+
+    if (!query.trim()) {
+      setSearchResults([]);
+      return;
+    }
+
+    const searchWords = query.toLowerCase().split(/\s+/);
+
+    const filteredProducts = products.filter((product) =>
+      searchWords.every((word) =>
+        product.name.toLowerCase().includes(word)
+      )
     );
+
     setSearchResults(filteredProducts);
   };
 
