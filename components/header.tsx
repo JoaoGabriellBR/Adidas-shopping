@@ -11,7 +11,7 @@ import categories from "@/utils/categories.json"
 import { useMediaQuery } from "react-responsive";
 import SearchInput from "./ui/search";
 
-export default function Header() {
+export default function Header({ searchQuery, handleSearch }: any) {
 
     const pathName = usePathname();
     const isMobile = useMediaQuery({ maxWidth: "1000px" });
@@ -40,7 +40,7 @@ export default function Header() {
                         <div className="w-full flex items-center justify-between">
                             <Navbar routes={routes} />
                             <div className="flex flex-row items-center gap-4">
-                                <SearchInput />
+                                <SearchInput searchQuery={searchQuery} handleSearch={handleSearch} />
                                 <CartIcon />
                             </div>
                         </div>

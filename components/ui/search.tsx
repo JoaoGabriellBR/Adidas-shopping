@@ -1,12 +1,10 @@
-import { useState } from 'react';
 import { SearchIcon } from 'lucide-react';
 
-const SearchInput = () => {
-  const [searchQuery, setSearchQuery] = useState('');
+const SearchInput = ({ searchQuery, handleSearch }: any) => {
 
-  const handleSearch = (event: any) => {
-    setSearchQuery(event.target.value);
-    // Implement your search logic here
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const query = event.target.value;
+    handleSearch(query);
   };
 
   return (
@@ -17,7 +15,7 @@ const SearchInput = () => {
       <input
         type="text"
         value={searchQuery}
-        onChange={handleSearch}
+        onChange={handleChange}       
         className="text-neutral-500 pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:border-blue-500"
         placeholder="Pesquisar..."
       />
