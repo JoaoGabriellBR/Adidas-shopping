@@ -2,7 +2,6 @@
 import { createContext, useContext, useState } from 'react';
 import { Product, SearchContextProps } from "@/utils/types";
 import products from "@/utils/products.json";
-import NoResults from '@/components/ui/no-results';
 
 const SearchContext = createContext<SearchContextProps | any>(null);
 
