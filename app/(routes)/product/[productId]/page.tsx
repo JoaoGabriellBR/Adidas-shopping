@@ -31,7 +31,7 @@ const ProductPage: React.FC<ProductPageProps> = ({ params }) => {
         <div className="px-4 py-10 sm:px-6 lg:px-8">
           <div
             onClick={() => router.back()}
-            className="flex flex-row items-center gap-1 cursor-pointer py-5"
+            className="max-w-[5rem] flex flex-row items-center gap-1 cursor-pointer my-5"
           >
             <ChevronLeft />
             <p>Voltar</p>

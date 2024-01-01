@@ -27,15 +27,13 @@ const CartPage = () => {
     <div className="bg-white">
       <Container>
         <div className="px-4 py-16 sm:px-6 lg:px-8">
-
           <div
             onClick={() => router.back()}
-            className="flex flex-row items-center gap-1 cursor-pointer py-5"
+            className="max-w-[5rem] flex flex-row items-center gap-1 cursor-pointer my-5"
           >
             <ChevronLeft />
             <p>Voltar</p>
           </div>
-
           <h1 className="text-3xl font-bold text-black">Carrinho de compras</h1>
           <div className="mt-12 lg:grid lg:grid-cols-12 lg:items-start gap-x-12">
             <div className="lg:col-span-7">
