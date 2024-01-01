@@ -10,12 +10,13 @@ import NavbarMobile from "./navbar-mobile";
 import categories from "@/utils/categories.json"
 import { useMediaQuery } from "react-responsive";
 import SearchInput from "./ui/search";
+import SearchMobile from "./ui/search-mobile";
 import { useSearch } from "@/context/search-context";
 
 export default function Header() {
 
     const pathName = usePathname();
-    const { searchQuery, handleSearch } = useSearch();
+    const { handleSearch } = useSearch();
     const isMobile = useMediaQuery({ maxWidth: "1000px" });
     const handleClick = () => handleSearch('');
 
@@ -36,6 +37,7 @@ export default function Header() {
                     {isMobile ? (
                         <div className="flex items-center justify-end w-full">
                             <div className="gap-3 flex items-center">
+                                <SearchMobile/>
                                 <CartIcon />
                                 <NavbarMobile routes={routes} />
                             </div>
@@ -44,7 +46,7 @@ export default function Header() {
                         <div className="w-full flex items-center justify-between">
                             <Navbar routes={routes} />
                             <div className="flex flex-row items-center gap-4">
-                                <SearchInput searchQuery={searchQuery} handleSearch={handleSearch} />
+                                <SearchInput/>
                                 <CartIcon />
                             </div>
                         </div>

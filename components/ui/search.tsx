@@ -1,7 +1,10 @@
 import { SearchIcon } from 'lucide-react';
+import { useSearch } from '@/context/search-context';
 
-const SearchInput = ({ searchQuery, handleSearch }: any) => {
+const SearchInput = () => {
 
+  const { searchQuery, handleSearch } = useSearch();
+  
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const query = event.target.value;
     handleSearch(query);
