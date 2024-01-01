@@ -15,8 +15,9 @@ import { useSearch } from "@/context/search-context";
 export default function Header() {
 
     const pathName = usePathname();
-    const isMobile = useMediaQuery({ maxWidth: "1000px" });
     const { searchQuery, handleSearch } = useSearch();
+    const isMobile = useMediaQuery({ maxWidth: "1000px" });
+    const handleClick = () => handleSearch('');
 
     const routes = categories.map((route: any) => ({
         href: `/category/${route.id}`,
@@ -24,11 +25,12 @@ export default function Header() {
         active: pathName === `/category/${route.id}`,
     }));
 
+
     return (
         <div className="border-b">
             <Container>
                 <div className="relative px-2 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
-                    <Link aria-label="Adidas home page" href="/">
+                    <Link onClick={handleClick} aria-label="Adidas home page" href="/">
                         <Image src={logo} alt="Logo adidas" width={80} height={80} />
                     </Link>
                     {isMobile ? (

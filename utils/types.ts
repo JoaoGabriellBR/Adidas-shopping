@@ -137,3 +137,9 @@ export interface PreviewModalStore {
   onOpen: (data: Product) => void;
   onClose: () => void;
 }
+
+export interface SearchContextProps {
+  searchQuery: string | any;
+  searchResults: Product[] | any;
+  handleSearch: (query: string) => void;
+}

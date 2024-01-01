@@ -1,15 +1,9 @@
 "use client"
 import { createContext, useContext, useState } from 'react';
+import { Product, SearchContextProps } from "@/utils/types";
 import products from "@/utils/products.json";
-import { Product } from "@/utils/types";
 
-interface SearchContextProps {
-    searchQuery: string | any;
-    searchResults: Product[] | any;
-    handleSearch: (query: string) => void;
-}
-
-const SearchContext = createContext<SearchContextProps | any>(undefined);
+const SearchContext = createContext<SearchContextProps | any>(null);
 
 export const SearchProvider = ({ children }: any) => {
 
