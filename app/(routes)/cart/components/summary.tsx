@@ -16,7 +16,8 @@ const Summary = () => {
   const onCheckout = async () => {
     setLoading(true);
     try {
-      await fetch("http://localhost:3000/api/checkout", {
+      const checkoutUrl = `${process.env.NEXT_PUBLIC_URL}/api/checkout`
+      await fetch(checkoutUrl, {
         method: "POST",
         headers: {
           "Content-type": "application/json"
