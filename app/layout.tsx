@@ -6,6 +6,7 @@ import ModalProvider from "@/providers/modal-provider";
 import ToastProvider from "@/providers/toast-provider";
 import { SearchProvider } from "@/context/search-context";
 import Header from "@/components/header";
+import CustomLayout from "@/components/custom-layout";
 
 const BRFrima = localFont({
   src: [
@@ -72,8 +73,9 @@ export default function RootLayout({
         <ModalProvider />
         <ToastProvider />
         <SearchProvider>
-          <Header />
-          {children}
+          <CustomLayout>
+            {children}
+          </CustomLayout>
         </SearchProvider>
         <Footer />
       </body>
