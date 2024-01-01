@@ -58,7 +58,7 @@ const ProductCard: React.FC<ProductCardProps | any> = ({ data }) => {
       </div>
       {/* Description */}
       <div>
-        <p className="font-semibold text-lg">{data.name}</p>
+        <p className="font-semibold text-lg">{data.name.toUpperCase()}</p>
         <p className="text-sm text-gray-500">{data?.category[0]?.name}</p>
       </div>
       <div className="flex items-center justify-between">

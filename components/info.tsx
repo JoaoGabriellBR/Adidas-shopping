@@ -6,7 +6,7 @@ import { MouseEventHandler } from "react";
 import { InfoProps } from "@/utils/types";
 
 const Info: React.FC<InfoProps> = ({ data }) => {
-  
+
   const cart = useCart();
 
   const onAddToCart: MouseEventHandler<HTMLButtonElement> = (event) => {
@@ -17,8 +17,9 @@ const Info: React.FC<InfoProps> = ({ data }) => {
 
   return (
     <div>
+      <p className="text-sm opacity-70 pb-1">{data?.category[0]?.name}{"  •  "}{data?.type}</p>
       <h1 className="text-2xl sm:text-3xl sm:font-bold text-gray-900">
-        {data.name}
+        {data.name.toUpperCase()}
       </h1>
       <div className="mt-3 lex items-end justify-between">
         <p className="text-2xl text-gray-900">
@@ -42,7 +43,7 @@ const Info: React.FC<InfoProps> = ({ data }) => {
             style={{ backgroundColor: data?.color?.value }}
           />
         </div>
-        
+
       </div>
 
       <div className="mt-10 flex items-center gap-x-3">
