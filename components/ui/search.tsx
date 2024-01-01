@@ -4,7 +4,7 @@ import { useSearch } from '@/context/search-context';
 const SearchInput = () => {
 
   const { searchQuery, handleSearch } = useSearch();
-  
+
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const query = event.target.value;
     handleSearch(query);
@@ -18,7 +18,7 @@ const SearchInput = () => {
       <input
         type="text"
         value={searchQuery}
-        onChange={handleChange}       
+        onChange={handleChange}
         className="text-neutral-500 pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:border-blue-500"
         placeholder="Pesquisar..."
       />

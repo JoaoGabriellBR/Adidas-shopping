@@ -50,7 +50,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <div className="bg-black">
+    <footer className="bg-black">
       <div className="mx-auto py-20 text-center flex flex-col gap-y-5 items-center justify-center">
         <div className="flex items-center justify-center gap-4">
           {socialMedias.map((item, index) => (
@@ -84,7 +84,7 @@ const Footer = () => {
           João Gabriel Silva.
         </Link>
       </p>
-    </div>
+    </footer>
   );
 };
 

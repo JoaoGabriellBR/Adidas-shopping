@@ -7,12 +7,19 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/cn";
+import { useSearch } from "@/context/search-context";
 
 const NavbarMobile = ({ routes }: any) => {
+
+  const { handleSearch } = useSearch();
   const [open, setOpen] = useState(false);
 
   const onOpen = () => setOpen(true);
-  const onClose = () => setOpen(false);
+
+  const onClose = () => {
+    handleSearch('');
+    setOpen(false);
+  }
 
   return (
     <>
@@ -30,7 +37,7 @@ const NavbarMobile = ({ routes }: any) => {
 
         <div className="fixed inset-0 z-40 flex">
           <Dialog.Panel className="relative ml-auto h-full w-full max-w-xs flex flex-col gap-4 overflow-y-auto bg-white py-4 pb-6 shadow-xl">
-            
+
             <div onClick={onClose} className="flex items-center justify-end px-4">
               <IconButton icon={<X size={15} />} />
             </div>
