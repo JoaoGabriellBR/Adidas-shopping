@@ -8,14 +8,20 @@ import IconButton from "@/components/ui/icon-button";
 import usePreviewModal from "@/hooks/use-preview-modal";
 import useCart from "@/hooks/use-cart";
 import { ProductCardProps } from "@/utils/types";
+import { useSearch } from "@/context/search-context";
 
 const ProductCard: React.FC<ProductCardProps | any> = ({ data }) => {
+  const { searchQuery } = useSearch();
   const previewModal = usePreviewModal();
   const cart = useCart();
   const router = useRouter();
 
   const handleClick = () => {
-    router.push(`/product/${data?.id}`);
+    if (searchQuery) {
+      window.location.replace(`/product/${data?.id}`);
+    } else {
+      router.push(`/product/${data?.id}`);
+    }
   };
 
   const onPreview: MouseEventHandler<HTMLButtonElement> = (event) => {
@@ -39,7 +45,7 @@ const ProductCard: React.FC<ProductCardProps | any> = ({ data }) => {
       <div className="aspect-square rounded-xl bg-gray-100 relative">
         <Image
           src={data.images[0].url}
-          alt=""
+          alt="Imagem"
           fill
           className="aspect-square object-cover rounded-md"
         />
