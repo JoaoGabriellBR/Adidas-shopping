@@ -29,7 +29,7 @@ Instale as dependências
   npm install
 ```
 
-Configure suas váriaveis de ambiente `.env`
+Configure suas variáveis de ambiente `.env`
    ```js
    NEXT_PUBLIC_URL = 'ENTER YOUR URL';
    STRIPE_SECRET_KEY = 'ENTER YOUR STRIPE SECRET KEY';
