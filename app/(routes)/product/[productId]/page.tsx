@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Gallery from "@/components/gallery/gallery";
 import Info from "@/components/info";
 import ProductList from "@/components/product-list";
@@ -11,13 +11,17 @@ import { ProductPageProps } from "@/utils/types";
 export const revalidate = 0;
 
 const ProductPage: React.FC<ProductPageProps> = ({ params }) => {
-
   const router = useRouter();
-  const product = products?.find((item) => item.id === Number(params.productId));
+  const product = products?.find(
+    (item) => item.id === Number(params.productId)
+  );
 
-  const suggestedProducts = products.filter(
-    (item) => item.id !== Number(params.productId)
-  )
+  const suggestedProducts = products
+    .filter(
+      (item) =>
+        item.id !== product?.id &&
+        item.category[0].id === product?.category[0].id
+    )
     .sort(() => Math.random() - 0.5)
     .slice(0, 8);
 
