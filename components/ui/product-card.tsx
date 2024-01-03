@@ -11,17 +11,14 @@ import { ProductCardProps } from "@/utils/types";
 import { useSearch } from "@/context/search-context";
 
 const ProductCard: React.FC<ProductCardProps | any> = ({ data }) => {
-  const { searchQuery } = useSearch();
+  const { handleSearch } = useSearch();
   const previewModal = usePreviewModal();
   const cart = useCart();
   const router = useRouter();
 
   const handleClick = () => {
-    if (searchQuery) {
-      window.location.replace(`/product/${data?.id}`);
-    } else {
-      router.push(`/product/${data?.id}`);
-    }
+    router.push(`/product/${data?.id}`);
+    handleSearch('');
   };
 
   const onPreview: MouseEventHandler<HTMLButtonElement> = (event) => {
