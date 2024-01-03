@@ -1,41 +1,13 @@
 import Footer from "@/components/footer";
 import "./globals.css";
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import ModalProvider from "@/providers/modal-provider";
 import ToastProvider from "@/providers/toast-provider";
 import { SearchProvider } from "@/context/search-context";
 import CustomLayout from "@/components/custom-layout";
+import { Roboto } from "next/font/google"
 
-const BRFrima = localFont({
-  src: [
-    {
-      path: "../fonts/BRFirma-font/BRFirma-Light.woff2",
-      weight: "100",
-      style: "normal",
-    },
-    {
-      path: "../fonts/BRFirma-font/BRFirma-Regular.woff2",
-      weight: "200",
-      style: "normal",
-    },
-    {
-      path: "../fonts/BRFirma-font/BRFirma-Medium.woff2",
-      weight: "300",
-      style: "normal",
-    },
-    {
-      path: "../fonts/BRFirma-font/BRFirma-SemiBold.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../fonts/BRFirma-font/BRFirma-Bold.woff2",
-      weight: "500",
-      style: "normal",
-    },
-  ],
-});
+const roboto = Roboto({ subsets: ['latin'], weight: "400" })
 
 export const metadata: Metadata = {
   title: {
@@ -68,7 +40,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={BRFrima.className}>
+      <body className={roboto.className}>
         <ModalProvider />
         <ToastProvider />
         <SearchProvider>

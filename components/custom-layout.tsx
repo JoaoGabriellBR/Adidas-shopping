@@ -12,7 +12,7 @@ const CustomLayout = ({ children }: any) => {
             <Header />
             {searchQuery && !searchResults.length && <NoResults />}
             {searchQuery ? (
-                <div className="my-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-1 gap-y-[2rem]">
                     {searchResults.map((product: any) => (
                         <ProductCard key={product.id} data={product} />
                     ))}

@@ -33,10 +33,14 @@ const ProductCard: React.FC<ProductCardProps | any> = ({ data }) => {
     cart.addItem(data);
   };
 
+  const capitalizeFirstLetter = (word: string) => {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  }
+
   return (
     <div
       onClick={handleClick}
-      className="bg-white group cursor-pointer rounded-xl border p-3 space-y-4"
+      className="bg-white group cursor-pointer rounded-xl space-y-4"
     >
       {/* Image & actions */}
       <div className="aspect-square rounded-xl bg-gray-100 relative">
@@ -59,13 +63,14 @@ const ProductCard: React.FC<ProductCardProps | any> = ({ data }) => {
           </div>
         </div>
       </div>
+
       {/* Description */}
-      <div>
-        <p className="font-semibold text-lg">{data.name.toUpperCase()}</p>
-        <p className="text-sm text-gray-500">{data?.category[0]?.name}</p>
-      </div>
-      <div className="flex items-center justify-between">
+      <div className="text-sm flex items-center justify-between">
         <p>R$ {data?.price}</p>
+      </div>
+      <div>
+        <p className="font-normal text-sm">{capitalizeFirstLetter(data.name.toLowerCase())}</p>
+        <p className="text-sm text-gray-500">{data?.category[0]?.name}</p>
       </div>
     </div>
   );
