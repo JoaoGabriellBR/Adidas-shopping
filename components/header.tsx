@@ -28,7 +28,7 @@ export default function Header() {
 
 
     return (
-        <div className="border-b">
+        <header>
             <Container>
                 <div className="relative px-2 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
                     <Link onClick={handleClick} aria-label="Adidas home page" href="/">
@@ -53,6 +53,6 @@ export default function Header() {
                     )}
                 </div>
             </Container>
-        </div>
+        </header>
     );
 }
