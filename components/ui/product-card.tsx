@@ -6,7 +6,7 @@ import { Expand, ShoppingCart } from "lucide-react";
 import { useRouter } from "next/navigation";
 import IconButton from "@/components/ui/icon-button";
 import usePreviewModal from "@/hooks/use-preview-modal";
-import useCart from "@/hooks/use-cart";
+import { useCart } from "@/hooks/createCustomStore";
 import { ProductCardProps } from "@/utils/types";
 import { useSearch } from "@/context/search-context";
 

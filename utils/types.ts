@@ -1,3 +1,5 @@
+import { Icon } from "lucide-react";
+
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   outline?: boolean;
@@ -114,6 +116,13 @@ export interface WishList {
   removeAll: () => void;
 }
 
+export interface createCustomStoreProps {
+  name: string;
+  textExistingItem: string;
+  textSetItem: string;
+  textRemoveItem: string;
+}
+
 export interface Query {
   categoryId?: string;
   colorId?: string;
@@ -155,4 +164,10 @@ export interface SearchContextProps {
   searchQuery: string | any;
   searchResults: Product[] | any;
   handleSearch: (query: string) => void;
+}
+
+export interface IconSchemaProps {
+  icon: Icon;
+  route: string;
+  getCount: () => number;
 }

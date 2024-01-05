@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { X } from "lucide-react";
 import IconButton from "@/components/ui/icon-button";
-import useWishList from "@/hooks/use-wish-list";
+import { useWishList } from "@/hooks/createCustomStore";
 import { WishItemProps } from "@/utils/types";
 import { useRouter } from "next/navigation";
 import { useSearch } from "@/context/search-context";

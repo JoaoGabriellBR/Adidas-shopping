@@ -1,10 +1,9 @@
 "use client";
 import Button from "./ui/button";
 import { Heart, ShoppingCart } from "lucide-react";
-import useCart from "@/hooks/use-cart";
+import { useCart, useWishList } from "@/hooks/createCustomStore";
 import { MouseEventHandler } from "react";
 import { InfoProps } from "@/utils/types";
-import useWishList from "@/hooks/use-wish-list";
 
 const Info: React.FC<InfoProps> = ({ data }) => {
   const cart = useCart();

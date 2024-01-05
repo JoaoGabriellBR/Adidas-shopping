@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Container from "@/components/ui/container";
-import useCart from "@/hooks/use-cart";
+import { useCart } from "@/hooks/createCustomStore";
 import CartItem from "./components/cart-item";
 import Summary from "./components/summary";
 import { ChevronLeft } from "lucide-react";

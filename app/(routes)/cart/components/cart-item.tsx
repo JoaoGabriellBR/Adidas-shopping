@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { X } from "lucide-react";
 import IconButton from "@/components/ui/icon-button";
-import useCart from "@/hooks/use-cart";
+import { useCart } from "@/hooks/createCustomStore";
 import { CartItemProps } from "@/utils/types";
 
 const CartItem: React.FC<CartItemProps> = ({ data }) => {

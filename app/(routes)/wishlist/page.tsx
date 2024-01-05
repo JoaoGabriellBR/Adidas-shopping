@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Container from "@/components/ui/container";
 import WishItem from "./components/wish-item";
 import { ChevronLeft } from "lucide-react";
-import useWishList from "@/hooks/use-wish-list";
+import { useWishList } from "@/hooks/createCustomStore";
 import ProductList from "@/components/product-list";
 import products from "@/utils/products.json";
 

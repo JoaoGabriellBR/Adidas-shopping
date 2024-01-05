@@ -12,7 +12,6 @@ import { useMediaQuery } from "react-responsive";
 import SearchInput from "./ui/search";
 import SearchMobile from "./ui/search-mobile";
 import { useSearch } from "@/context/search-context";
-import { Heart } from "lucide-react";
 import HeartIcon from "./heart-icon";
 
 export default function Header() {
@@ -39,7 +38,7 @@ export default function Header() {
             <div className="flex items-center justify-end w-full">
               <div className="gap-4 flex items-center">
                 <SearchMobile />
-                <HeartIcon/>
+                <HeartIcon />
                 <CartIcon />
                 <NavbarMobile routes={routes} />
               </div>
@@ -48,7 +47,7 @@ export default function Header() {
             <div className="flex flex-row items-center gap-4">
               <Navbar routes={routes} />
               <SearchInput />
-              <HeartIcon/>
+              <HeartIcon />
               <CartIcon />
             </div>
           )}
