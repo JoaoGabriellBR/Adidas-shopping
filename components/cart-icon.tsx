@@ -1,19 +1,19 @@
-"use client"
+"use client";
 
-import Button from "@/components/ui/button";
 import useCart from "@/hooks/use-cart";
 import { ShoppingBag } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useSearch } from "@/context/search-context";
+import Button from "./ui/button";
 
 const CartIcon = () => {
   const [isMounted, setIsMounted] = useState(false);
   const { handleSearch } = useSearch();
 
   const handleClick = () => {
-    router.push("/cart")
-    handleSearch('')
+    router.push("/cart");
+    handleSearch("");
   };
 
   useEffect(() => {
@@ -28,14 +28,14 @@ const CartIcon = () => {
   }
 
   return (
-    <div className="ml-auto gap-x-4 items-center flex">
-      <Button onClick={handleClick} className="flex items-center rounded-full bg-black px-4 py-2">
-        <ShoppingBag size={20} color="white" />
-        <span className='ml-2 text-sm font-medium text-white'>
+    <Button onClick={handleClick} className="p-0 m-0 bg-transparent">
+      <ShoppingBag size={22} color="black" />
+      {cart.items.length && (
+        <span className="p-1 mb-5 text-sm font-medium text-black">
           {cart.items.length}
         </span>
-      </Button>
-    </div>
+      )}
+    </Button>
   );
 };
 

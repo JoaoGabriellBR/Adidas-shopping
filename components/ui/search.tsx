@@ -19,7 +19,7 @@ const SearchInput = () => {
         type="text"
         value={searchQuery}
         onChange={handleChange}
-        className="text-neutral-500 pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:border-blue-500"
+        className="text-neutral-500 pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:border-black"
         placeholder="Pesquisar..."
       />
     </div>

@@ -1,11 +1,11 @@
 "use client";
 
-import Button from "@/components/ui/button";
 import useWishList from "@/hooks/use-wish-list";
 import { Heart } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useSearch } from "@/context/search-context";
+import Button from "./ui/button";
 
 const HeartIcon = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -28,19 +28,17 @@ const HeartIcon = () => {
   }
 
   return (
-    <div className="ml-auto gap-x-4 items-center flex">
-      <Button
-        onClick={handleClick}
-        className="bg-transparent flex justify-center items-center rounded-full px-4 py-2"
-      >
-        <Heart size={22} color="black" />
-        {wishList.items.length && (
-          <span className="p-1 mb-5 text-xs font-medium text-black bg-yellow-400 rounded-full">
-            {wishList.items.length}
-          </span>
-        )}
-      </Button>
-    </div>
+    <Button
+      onClick={handleClick}
+      className="p-0 m-0 bg-transparent"
+    >
+      <Heart size={22} color="black" />
+      {wishList.items.length && (
+        <span className="p-1 mb-5 text-sm font-medium text-black">
+          {wishList.items.length}
+        </span>
+      )}
+    </Button>
   );
 };
 

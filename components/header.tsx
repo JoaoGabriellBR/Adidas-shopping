@@ -37,14 +37,15 @@ export default function Header() {
 
           {isMobile ? (
             <div className="flex items-center justify-end w-full">
-              <div className="gap-3 flex items-center">
+              <div className="gap-4 flex items-center">
                 <SearchMobile />
+                <HeartIcon/>
                 <CartIcon />
                 <NavbarMobile routes={routes} />
               </div>
             </div>
           ) : (
-            <div className="flex flex-row items-center gap-8">
+            <div className="flex flex-row items-center gap-4">
               <Navbar routes={routes} />
               <SearchInput />
               <HeartIcon/>
