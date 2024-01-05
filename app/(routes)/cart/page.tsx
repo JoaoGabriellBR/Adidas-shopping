@@ -34,7 +34,7 @@ const CartPage = () => {
             <ChevronLeft />
             <p>Voltar</p>
           </div>
-          <h1 className="text-3xl font-bold text-black">Carrinho de compras</h1>
+          <h1 className="text-xl sm:text-3xl font-bold text-black">Carrinho de compras</h1>
           <div className="mt-12 lg:grid lg:grid-cols-12 lg:items-start gap-x-12">
             <div className="lg:col-span-7">
               {cart.items.length === 0 && (

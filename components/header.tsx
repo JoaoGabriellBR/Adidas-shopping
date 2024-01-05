@@ -12,6 +12,8 @@ import { useMediaQuery } from "react-responsive";
 import SearchInput from "./ui/search";
 import SearchMobile from "./ui/search-mobile";
 import { useSearch } from "@/context/search-context";
+import { Heart } from "lucide-react";
+import HeartIcon from "./heart-icon";
 
 export default function Header() {
   const pathName = usePathname();
@@ -45,6 +47,7 @@ export default function Header() {
             <div className="flex flex-row items-center gap-8">
               <Navbar routes={routes} />
               <SearchInput />
+              <HeartIcon/>
               <CartIcon />
             </div>
           )}

@@ -1,5 +1,7 @@
 export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> { }
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  outline?: boolean;
+}
 
 export interface IconButtonProps {
   onClick?: React.MouseEventHandler<HTMLButtonElement> | undefined;
@@ -70,9 +72,9 @@ export interface FilterProps {
 }
 
 export interface Product {
-  id: string;
+  id: number;
   category: Category;
-  description: string,
+  description: string;
   name: string;
   price: number;
   size: Size;
@@ -101,7 +103,14 @@ export interface ProductPageProps {
 export interface CartStore {
   items: Product[];
   addItem: (data: Product) => void;
-  removeItem: (id: string) => void;
+  removeItem: (id: number) => void;
+  removeAll: () => void;
+}
+
+export interface WishList {
+  items: Product[];
+  addItem: (data: Product) => void;
+  removeItem: (id: number) => void;
   removeAll: () => void;
 }
 
@@ -118,6 +127,10 @@ export interface InfoProps {
 }
 
 export interface CartItemProps {
+  data: Product;
+}
+
+export interface WishItemProps {
   data: Product;
 }
 
