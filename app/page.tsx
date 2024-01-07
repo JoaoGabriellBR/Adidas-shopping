@@ -86,19 +86,20 @@ const HomePage = () => {
 
   const productsPerPage = 4; // Define quantos produtos exibir em cada slide
   const slideProducts = [];
-  for (let i = 0; i < products.length; i += productsPerPage) {
+
+  const productsPerPageMobile = isMobile ? 1 : productsPerPage; // Define quantos produtos exibir por slide em dispositivos móveis
+
+  for (let i = 0; i < products.length; i += productsPerPageMobile) {
     const productsGroup = products
-      .slice(i, i + productsPerPage)
+      .slice(i, i + productsPerPageMobile)
       .map((product) => <ProductCard key={product.id} data={product} />);
     slideProducts.push({
       content: (
-        <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
-          <div
-            key={i / productsPerPage}
-            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-1 gap-y-[2rem]"
-          >
-            {productsGroup}
-          </div>
+        <div
+          key={i / productsPerPageMobile}
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-1 gap-y-[2rem]"
+        >
+          {productsGroup}
         </div>
       ),
     });
