@@ -7,6 +7,7 @@ import Button from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import products from "@/utils/products.json";
 import Link from "next/link";
+import Carousel from "@/components/ui/carousel";
 
 export const revalidate = 0;
 
@@ -14,6 +15,52 @@ const HomePage = () => {
   return (
     <>
       <div className="space-y-10 pb-10">
+<<<<<<< Updated upstream
+=======
+        <Carousel />
+
+        <Container>
+          <h3 className="font-bold text-xl sm:text-3xl pb-5 px-4 sm:px-6 lg:px-8">
+            Novidades
+          </h3>
+
+          <div className="w-full flex flex-row flex-wrap items-center justify-center px-4 sm:px-6 lg:px-8">
+
+            <div className="w-full lg:w-1/2 lg:pr-2 mb-2">
+              <Image
+                src="/images/itensOriginais.png"
+                alt={"Imagem"}
+                layout="responsive"
+                width={600}
+                height={448}
+                className="w-full"
+              />
+            </div>
+            <div className="w-full lg:w-1/2 lg:pl-2 mb-2">
+              <Image
+                src="/images/itens-de-esporte.png"
+                alt={"Imagem"}
+                layout="responsive"
+                width={600}
+                height={448}
+                className="w-full"
+              />
+            </div>
+          </div>
+        </Container>
+
+        <Container>
+          <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
+            <ProductList
+              initialLength={0}
+              finalLength={8}
+              title="Produtos em destaque"
+              items={products}
+            />
+          </div>
+        </Container>
+
+>>>>>>> Stashed changes
         <div className="bg-[#ECEDEF] py-7 md:py-4 rounded-xl">
           <Container>
             <div className="px-4 sm:px-6 lg:px-8 relative flex flex-row flex-wrap justify-between items-center">
@@ -52,15 +99,32 @@ const HomePage = () => {
         <Container>
           <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
             <ProductList
+<<<<<<< Updated upstream
               initialLength={0}
               finalLength={8}
               title="Produtos em destaque"
+=======
+              initialLength={8}
+              title="Outros Produtos"
+>>>>>>> Stashed changes
               items={products}
             />
           </div>
         </Container>
+<<<<<<< Updated upstream
 
         <div className="rounded-xl relative aspect-square md:aspect-[2.4/1.4] overflow-hidden">
+=======
+      </div>
+    </>
+  );
+};
+
+export default HomePage;
+
+{
+  /* <div className="rounded-xl relative aspect-square md:aspect-[2.4/1.4] overflow-hidden">
+>>>>>>> Stashed changes
           <Image
             src="/images/confira.png"
             alt="Billboard Image"
@@ -78,20 +142,5 @@ const HomePage = () => {
               </Button>
             </Link>
           </div>
-        </div>
-
-        <Container>
-          <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
-            <ProductList
-              initialLength={8}
-              title="Outros Produtos"
-              items={products}
-            />
-          </div>
-        </Container>
-      </div>
-    </>
-  );
-};
-
-export default HomePage;
+        </div> */
+}
