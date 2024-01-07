@@ -3,11 +3,8 @@
 import ProductList from "@/components/product-list";
 import Container from "@/components/ui/container";
 import Image from "next/image";
-import Button from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import products from "@/utils/products.json";
 import Carousel from "@/components/ui/carousel";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMediaQuery } from "react-responsive";
 import ProductCard from "@/components/ui/product-card";
@@ -84,15 +81,20 @@ const HomePage = () => {
     onClick: () => router.push(image.url),
   }));
 
-  const productsPerPage = 4; // Define quantos produtos exibir em cada slide
+  const productsPerPage = 4;
   const slideProducts = [];
 
-  const productsPerPageMobile = isMobile ? 1 : productsPerPage; // Define quantos produtos exibir por slide em dispositivos móveis
+  const productsPerPageMobile = isMobile ? 1 : productsPerPage;
+  const onlySneakers = products.filter(
+    (product) => product.type === "sneakers"
+  );
 
-  for (let i = 0; i < products.length; i += productsPerPageMobile) {
+  for (let i = 0; i < onlySneakers.length; i += productsPerPageMobile) {
     const productsGroup = products
+      .filter((product) => product.type === "sneakers")
       .slice(i, i + productsPerPageMobile)
       .map((product) => <ProductCard key={product.id} data={product} />);
+
     slideProducts.push({
       content: (
         <div
@@ -147,11 +149,13 @@ const HomePage = () => {
           <h3 className="font-bold text-xl sm:text-3xl pb-5 px-4 sm:px-6 lg:px-8">
             Calçados
           </h3>
-          <Carousel
-            slides={slideProducts}
-            infiniteLoop
-            transitionDuration={500}
-          />
+          <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
+            <Carousel
+              slides={slideProducts}
+              infiniteLoop
+              transitionDuration={500}
+            />
+          </div>
         </Container>
 
         <Container>
@@ -160,16 +164,6 @@ const HomePage = () => {
               initialLength={0}
               finalLength={8}
               title="Produtos em destaque"
-              items={products}
-            />
-          </div>
-        </Container>
-
-        <Container>
-          <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
-            <ProductList
-              initialLength={8}
-              title="Outros Produtos"
               items={products}
             />
           </div>
