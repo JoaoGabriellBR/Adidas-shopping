@@ -122,7 +122,10 @@ const HomePage = () => {
           </h3>
 
           <div className="w-full flex flex-row flex-wrap items-center justify-center px-2 sm:px-4 lg:px-8">
-            <div className="w-full lg:w-1/2 lg:pr-2 mb-2">
+            <div
+              className="w-full lg:w-1/2 lg:pr-2 mb-2 cursor-pointer"
+              onClick={() => router.push("/category/4")}
+            >
               <Image
                 src="/images/itensOriginais.png"
                 alt={"Imagem"}
@@ -132,7 +135,10 @@ const HomePage = () => {
                 className="w-full"
               />
             </div>
-            <div className="w-full lg:w-1/2 lg:pl-2 mb-2">
+            <div
+              className="w-full lg:w-1/2 lg:pl-2 mb-2 cursor-pointer"
+              onClick={() => router.push("/category/2")}
+            >
               <Image
                 src="/images/itens-de-esporte.png"
                 alt={"Imagem"}

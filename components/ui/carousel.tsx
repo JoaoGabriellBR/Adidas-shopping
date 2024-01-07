@@ -64,7 +64,7 @@ const Carousel: React.FC<CarouselProps> = ({
             <div
               onClick={slide.onClick}
               key={index}
-              className="w-full flex-shrink-0"
+              className="w-full flex-shrink-0 cursor-pointer"
             >
               {slide.content}
             </div>
