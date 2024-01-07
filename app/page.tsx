@@ -6,8 +6,8 @@ import Image from "next/image";
 import Button from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import products from "@/utils/products.json";
-import Link from "next/link";
 import Carousel from "@/components/ui/carousel";
+import Link from "next/link";
 
 export const revalidate = 0;
 
@@ -15,8 +15,6 @@ const HomePage = () => {
   return (
     <>
       <div className="space-y-10 pb-10">
-<<<<<<< Updated upstream
-=======
         <Carousel />
 
         <Container>
@@ -24,8 +22,7 @@ const HomePage = () => {
             Novidades
           </h3>
 
-          <div className="w-full flex flex-row flex-wrap items-center justify-center px-4 sm:px-6 lg:px-8">
-
+          <div className="w-full flex flex-row flex-wrap items-center justify-center px-2 sm:px-4 lg:px-8">
             <div className="w-full lg:w-1/2 lg:pr-2 mb-2">
               <Image
                 src="/images/itensOriginais.png"
@@ -60,7 +57,6 @@ const HomePage = () => {
           </div>
         </Container>
 
->>>>>>> Stashed changes
         <div className="bg-[#ECEDEF] py-7 md:py-4 rounded-xl">
           <Container>
             <div className="px-4 sm:px-6 lg:px-8 relative flex flex-row flex-wrap justify-between items-center">
@@ -99,48 +95,15 @@ const HomePage = () => {
         <Container>
           <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
             <ProductList
-<<<<<<< Updated upstream
-              initialLength={0}
-              finalLength={8}
-              title="Produtos em destaque"
-=======
               initialLength={8}
               title="Outros Produtos"
->>>>>>> Stashed changes
               items={products}
             />
           </div>
         </Container>
-<<<<<<< Updated upstream
-
-        <div className="rounded-xl relative aspect-square md:aspect-[2.4/1.4] overflow-hidden">
-=======
       </div>
     </>
   );
 };
 
 export default HomePage;
-
-{
-  /* <div className="rounded-xl relative aspect-square md:aspect-[2.4/1.4] overflow-hidden">
->>>>>>> Stashed changes
-          <Image
-            src="/images/confira.png"
-            alt="Billboard Image"
-            layout="fill"
-            objectFit="cover"
-          />
-          <div className="absolute inset-0 flex flex-col justify-center items-center gap-y-4 text-white">
-            <h1 className="p-0 text-6xl sm:text-5xl lg:text-7xl max-w-xs">
-              Originais
-            </h1>
-            <p>Confira agora os nossos itens originais</p>
-            <Link href="/category/4">
-              <Button className="bg-white mb-4 text-black flex items-center gap-2">
-                Compre agora <ArrowRight className="w-4 h-4" />
-              </Button>
-            </Link>
-          </div>
-        </div> */
-}
