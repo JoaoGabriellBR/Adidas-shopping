@@ -10,6 +10,7 @@ import Carousel from "@/components/ui/carousel";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMediaQuery } from "react-responsive";
+import ProductCard from "@/components/ui/product-card";
 
 export const revalidate = 0;
 
@@ -20,13 +21,13 @@ const HomePage = () => {
   const images = [
     {
       id: 1,
-      src: "/images/camiseta-essentials.png",
-      url: "/product/15",
+      src: "/images/campus.png",
+      url: "/product/33",
     },
     {
       id: 2,
-      src: "/images/campus.png",
-      url: "/product/33",
+      src: "/images/camiseta-essentials.png",
+      url: "/product/15",
     },
     {
       id: 3,
@@ -38,13 +39,13 @@ const HomePage = () => {
   const imagesMobile = [
     {
       id: 1,
-      src: "/images/camiseta-essentials-mobile1.png",
-      url: "/product/15",
+      src: "/images/campusMobile.png",
+      url: "/product/33",
     },
     {
       id: 2,
-      src: "/images/campusMobile.png",
-      url: "/product/33",
+      src: "/images/camiseta-essentials-mobile1.png",
+      url: "/product/15",
     },
     {
       id: 3,
@@ -82,6 +83,26 @@ const HomePage = () => {
     ),
     onClick: () => router.push(image.url),
   }));
+
+  const productsPerPage = 4; // Define quantos produtos exibir em cada slide
+  const slideProducts = [];
+  for (let i = 0; i < products.length; i += productsPerPage) {
+    const productsGroup = products
+      .slice(i, i + productsPerPage)
+      .map((product) => <ProductCard key={product.id} data={product} />);
+    slideProducts.push({
+      content: (
+        <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
+          <div
+            key={i / productsPerPage}
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-1 gap-y-[2rem]"
+          >
+            {productsGroup}
+          </div>
+        </div>
+      ),
+    });
+  }
 
   return (
     <>
@@ -122,6 +143,17 @@ const HomePage = () => {
         </Container>
 
         <Container>
+          <h3 className="font-bold text-xl sm:text-3xl pb-5 px-4 sm:px-6 lg:px-8">
+            Calçados
+          </h3>
+          <Carousel
+            slides={slideProducts}
+            infiniteLoop
+            transitionDuration={500}
+          />
+        </Container>
+
+        <Container>
           <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
             <ProductList
               initialLength={0}
@@ -131,41 +163,6 @@ const HomePage = () => {
             />
           </div>
         </Container>
-
-        <div className="bg-[#ECEDEF] py-7 md:py-4 rounded-xl">
-          <Container>
-            <div className="px-4 sm:px-6 lg:px-8 relative flex flex-row flex-wrap justify-between items-center">
-              <div className="space-y-2">
-                <h1 className="text-3xl md:text-5xl lg:text-6xl">
-                  Tênis Runfalcon 3.0
-                </h1>
-                <p className="text-lg md:text-2xl lg:text-3xl">a partir de</p>
-                <div className="flex flex-row gap-2">
-                  <p className="text-black text-lg md:text-2xl lg:text-3xl">
-                    R$
-                  </p>
-                  <p className="text-black text-6xl md:text-7xl lg:text-8xl">
-                    399
-                  </p>
-                  <p className="text-black text-lg md:text-2xl lg:text-3xl">
-                    ,99
-                  </p>
-                </div>
-                <Link href="/product/21">
-                  <Button className="bg-black my-4 text-white flex items-center gap-2">
-                    Compre agora <ArrowRight className="w-4 h-4" />
-                  </Button>
-                </Link>
-              </div>
-              <Image
-                src="/images/tenis-adidas.png"
-                width={450}
-                height={400}
-                alt="Tênis Runfalcon 3.0"
-              />
-            </div>
-          </Container>
-        </div>
 
         <Container>
           <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
