@@ -18,7 +18,7 @@ const HomePage = () => {
   const images = [
     {
       id: 1,
-      src: "/images/campus.png",
+      src: "/images/tenis-campus-00s.png",
       url: "/product/33",
     },
     {
