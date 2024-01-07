@@ -8,14 +8,89 @@ import { ArrowRight } from "lucide-react";
 import products from "@/utils/products.json";
 import Carousel from "@/components/ui/carousel";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useMediaQuery } from "react-responsive";
 
 export const revalidate = 0;
 
 const HomePage = () => {
+  const router = useRouter();
+  const isMobile = useMediaQuery({ maxWidth: "1000px" });
+
+  const images = [
+    {
+      id: 1,
+      src: "/images/camiseta-essentials.png",
+      url: "/product/15",
+    },
+    {
+      id: 2,
+      src: "/images/campus.png",
+      url: "/product/33",
+    },
+    {
+      id: 3,
+      src: "/images/itens-imperdiveis.png",
+      url: "/category/4",
+    },
+  ];
+
+  const imagesMobile = [
+    {
+      id: 1,
+      src: "/images/camiseta-essentials-mobile1.png",
+      url: "/product/15",
+    },
+    {
+      id: 2,
+      src: "/images/campusMobile.png",
+      url: "/product/33",
+    },
+    {
+      id: 3,
+      src: "/images/itens-imperdiveis-mobile.png",
+      url: "/category/4",
+    },
+  ];
+
+  const slides = images.map((image) => ({
+    content: (
+      <Image
+        key={image.id}
+        src={image.src}
+        alt={`Slide ${image.id}`}
+        layout="responsive"
+        width={1920}
+        height={600}
+        objectFit="cover"
+      />
+    ),
+    onClick: () => router.push(image.url),
+  }));
+
+  const slidesMobile = imagesMobile.map((image) => ({
+    content: (
+      <Image
+        key={image.id}
+        src={image.src}
+        alt={`Slide ${image.id}`}
+        layout="responsive"
+        width={767}
+        height={755}
+        objectFit="cover"
+      />
+    ),
+    onClick: () => router.push(image.url),
+  }));
+
   return (
     <>
       <div className="space-y-10 pb-10">
-        <Carousel />
+        <Carousel
+          slides={isMobile ? slidesMobile : slides}
+          infiniteLoop
+          transitionDuration={500}
+        />
 
         <Container>
           <h3 className="font-bold text-xl sm:text-3xl pb-5 px-4 sm:px-6 lg:px-8">

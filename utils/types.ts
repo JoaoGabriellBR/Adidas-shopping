@@ -171,3 +171,14 @@ export interface IconSchemaProps {
   route: string;
   getCount: () => number;
 }
+
+export interface SlideProps {
+  content: JSX.Element;
+  onClick?: () => void;
+}
+
+export interface CarouselProps {
+  slides: SlideProps[];
+  infiniteLoop?: boolean;
+  transitionDuration?: number;
+}

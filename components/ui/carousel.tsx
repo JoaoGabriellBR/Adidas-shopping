@@ -1,87 +1,101 @@
-"use client";
+import React, { useState, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { CarouselProps } from "@/utils/types";
 
-import { useState } from "react";
-import Image from "next/image";
-import { ChevronRight, ChevronLeft } from "lucide-react";
-import { useMediaQuery } from "react-responsive";
+const Carousel: React.FC<CarouselProps> = ({
+  slides,
+  infiniteLoop = false,
+  transitionDuration = 500,
+}) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-const images = [
-  "/images/camiseta-essentials.png",
-  "/images/campus.png",
-  "/images/itens-imperdiveis.png",
-];
-const imagesMobile = [
-  "/images/camiseta-essentials-mobile1.png",
-  "/images/campusMobile.png",
-  "/images/itens-imperdiveis-mobile.png"
-];
-
-const Carousel = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-  const isMobile = useMediaQuery({ maxWidth: "1000px" });
+  const goToSlide = (index: number) => {
+    if (infiniteLoop) {
+      index = (index + slides.length) % slides.length;
+    } else {
+      index = Math.max(0, Math.min(index, slides.length - 1));
+    }
+    setCurrentIndex(index);
+  };
 
   const nextSlide = () => {
-    setCurrentImage((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+    goToSlide(currentIndex + 1);
   };
 
   const prevSlide = () => {
-    setCurrentImage((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+    goToSlide(currentIndex - 1);
   };
 
-  const goToSlide = (index: number) => {
-    setCurrentImage(index);
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (infiniteLoop) {
+        nextSlide();
+      } else if (currentIndex < slides.length - 1) {
+        nextSlide();
+      }
+    }, 5000);
+
+    return () => clearInterval(interval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentIndex, infiniteLoop, slides.length]);
 
   return (
-    <div className="relative transition-opacity duration-500 ease-in-out">
-      <div className="overflow-hidden transition-opacity duration-500 ease-in-out">
-        {isMobile ? (
-          <Image
-            src={imagesMobile[currentImage]}
-            alt={`Slide ${currentImage}`}
-            layout="responsive"
-            width={767}
-            height={755}
-            objectFit="cover"
-          />
-        ) : (
-          <Image
-            src={images[currentImage]}
-            alt={`Slide ${currentImage}`}
-            layout="responsive"
-            width={1920}
-            height={600}
-            objectFit="cover"
-          />
-        )}
-      </div>
-
-      <div className="absolute inset-y-0 left-0 flex items-center">
+    <div className="relative">
+      <div className="flex overflow-hidden">
         <button
           onClick={prevSlide}
-          className="text-black p-2 rounded-full mr-2 transition-opacity duration-500 ease-in-out"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2"
+        >
+          <ChevronLeft size={35} />
+        </button>
+        <button
+          onClick={nextSlide}
+          className="absolute right-0 top-1/2 transform -translate-y-1/2"
+        >
+          <ChevronRight size={35} />
+        </button>
+        <div
+          className="flex transition-transform duration-500"
+          style={{
+            transform: `translateX(-${currentIndex * 100}%)`,
+          }}
+        >
+          {slides.map((slide, index) => (
+            <div
+              onClick={slide.onClick}
+              key={index}
+              className="w-full flex-shrink-0"
+            >
+              {slide.content}
+            </div>
+          ))}
+        </div>
+
+        {/* Botões de seta */}
+        <button
+          className="absolute top-1/2 transform -translate-y-1/2 left-0 z-10"
+          onClick={prevSlide}
         >
           <ChevronLeft size={40} />
         </button>
-      </div>
-
-      <div className="absolute inset-y-0 right-0 flex items-center">
         <button
+          className="absolute top-1/2 transform -translate-y-1/2 right-0 z-10"
           onClick={nextSlide}
-          className="text-black p-2 rounded-full ml-2 transition-opacity duration-500 ease-in-out"
         >
           <ChevronRight size={40} />
         </button>
       </div>
-      <div className="absolute bottom-0 left-0 right-0 flex justify-center mb-4 transition-opacity duration-500 ease-in-out">
-        {images.map((_, index) => (
+
+      {/* Botões de transição manual */}
+      <div className="flex justify-center mt-4">
+        {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`h-2 w-2 mx-2 rounded-full ${
-              currentImage === index ? "bg-gray-800" : "bg-gray-400"
-            } transition-opacity duration-500 ease-in-out`}
-          ></button>
+            className={`w-3 h-3 mx-1 rounded-full focus:outline-none ${
+              index === currentIndex ? "bg-black" : "bg-gray-300"
+            }`}
+          />
         ))}
       </div>
     </div>
