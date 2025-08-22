@@ -61,14 +61,11 @@ Esse projeto está sob a licença MIT - acesse os detalhes [LICENSE.md](/LICENSE
 [![Email][Email]][Email-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[Website]: https://img.shields.io/badge/site%20oficial-22C55E?style=for-the-badge
-[Website-url]: https://up-write.vercel.app
-
 [Email]: https://img.shields.io/badge/-gmail-white.svg?style=for-the-badge&logo=gmail
 [Email-url]: joaoname9@gmail.com
 
 [Porfolio]: https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white
-[Porfolio-url]: https://joaogabrielsilva.vercel.app
+[Porfolio-url]: https://joaogabrielsilva.com.br
 
 [Linkedin]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=blue
 [Linkedin-url]: https://www.linkedin.com/in/joaogabriel-silva
